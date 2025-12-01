@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Pizza Margarita",
+    "price": 12.99,
+    "image": "images/f1.png"
+  },
+  {
+    "name": "Hamburguesa Especial",
+    "price": 9.50,
+    "image": "images/f2.png"
+  },
+  {
+    "name": "Pasta Alfredo",
+    "price": 14.00,
+    "image": "images/f3.png"
+  }
+]
