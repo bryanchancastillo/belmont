@@ -1,37 +1,37 @@
 [
   {
-    "name": "Orange Juice 1L",
-    "description": "Natural orange juice, perfect for breakfast.",
+    "name": "Yellow Chill Pepper",
+    "description": "Rich and tasty tomato sauce for your pasta.",
     "price": 5.99,
     "image": "images/f1.png",
-    "category": "juices"
+    "category": "frozen"
   },
   {
-    "name": "Tomato Sauce Can",
+    "name": "Yellow Chill Pepper Desvenado",
     "description": "Rich and tasty tomato sauce for your pasta.",
     "price": 3.49,
-    "image": "images/f1.png",
-    "category": "pizza"
+    "image": "images/f2.png",
+    "category": "frozen"
   },
   {
     "name": "Frozen Vegetables Mix",
     "description": "Mixed vegetables ready to cook, frozen for freshness.",
     "price": 7.50,
     "image": "images/f1.png",
-    "category": "juices"
+    "category": "pizza"
   },
   {
     "name": "Green Peas in Brine",
     "description": "Tender green peas preserved in brine.",
     "price": 4.25,
     "image": "images/f1.png",
-    "category": "juices"
+    "category": "pizza"
   },
   {
     "name": "Oat Grain Cereal",
     "description": "Healthy oat cereal, ideal for everyday breakfast.",
     "price": 6.10,
     "image": "images/f1.png",
-    "category": "juices"
+    "category": "pizza"
   }
 ]

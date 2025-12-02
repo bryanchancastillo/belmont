@@ -2,37 +2,63 @@
 <html>
 
 <head>
-  <!-- Basic -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-  <link rel="shortcut icon" href="images/favicon.png" type="">
-
   <title>Belmont</title>
 
-  <!-- bootstrap core css -->
+  <!-- CSS y librerías -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-
-  <!--owl slider stylesheet -->
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-  <!-- nice select  -->
   <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css"
-    integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ=="
-    crossorigin="anonymous" />
-  <!-- font awesome style -->
+    href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" />
   <link href="css/font-awesome.min.css" rel="stylesheet" />
-
-  <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+
+  <!-- ✅ ANIMACIONES SOLO AQUÍ -->
+<style>
+  /* Estado base: oculto y pequeño */
+  #menuGrid .menu-item {
+    opacity: 0;
+    transform: scale(0.85) translateY(20px);
+    filter: blur(4px);
+  }
+
+  /* Cuando se muestra, corre una animación llamativa */
+  #menuGrid .menu-item.show {
+    animation: popIn 0.45s cubic-bezier(0.2, 0.8, 0.3, 1.2) forwards;
+  }
+
+  @keyframes popIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.85) translateY(20px);
+      filter: blur(4px);
+    }
+    60% {
+      opacity: 1;
+      transform: scale(1.05) translateY(-3px);
+      filter: blur(0);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1) translateY(0);
+      filter: blur(0);
+    }
+  }
+
+  /* Hover más llamativo en las tarjetas */
+  #menuGrid .menu-item .box {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+
+  #menuGrid .menu-item:hover .box {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.18);
+  }
+</style>
 
 </head>
 
@@ -42,21 +68,19 @@
     <div class="bg-box">
       <img src="images/belmont.png" alt="">
     </div>
-    <!-- header section strats -->
+
+    <!-- Header -->
     <header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
-            <span>
-              Belmont
-            </span>
+            <span>Belmont</span>
           </a>
         </nav>
       </div>
     </header>
-    <!-- end header section -->
 
-    <!-- slider section -->
+    <!-- Slider -->
     <section class="slider_section ">
       <div id="customCarousel1" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -65,140 +89,74 @@
               <div class="row">
                 <div class="col-md-7 col-lg-6 ">
                   <div class="detail-box">
-                    <h1>
-                      Sandra Hartman
-                    </h1>
+                    <h1>Sandra Hartman</h1>
                     <p>
-                      With years of experience working with products from the renowned Peruvian brand Belmont, Sandra has
-                      established herself as a trusted advisor for those seeking quality, durability, and personalized
-                      service. Her commitment is to help you choose the ideal products for your home or business, always
-                      ensuring a clear, fast, and satisfying experience.
+                      With years of experience working with products from the renowned Peruvian brand Belmont,
+                      Sandra has established herself as a trusted advisor...
                     </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
-        </div> <!-- cierre carousel-inner -->
-      </div> <!-- cierre carousel -->
     </section>
-    <!-- end slider section -->
   </div>
 
-  <!-- food section -->
+  <!-- FOOD SECTION -->
   <section class="food_section layout_padding-bottom">
     <div class="container">
       <div class="heading_container heading_center mt-4">
-        <h2>
-          Our Menu
-        </h2>
+        <h2>Our Menu</h2>
       </div>
 
       <ul class="filters_menu">
-        <li class="active" data-filter=".juices">Juices</li>
+        <li class="active" data-filter=".frozen">Frozen</li>
         <li data-filter=".pizza">Pizza</li>
         <li data-filter=".pasta">Pasta</li>
         <li data-filter=".fries">Fries</li>
       </ul>
 
-      <!-- contenedor del grid -->
       <div class="filters-content">
         <div class="row grid" id="menuGrid"></div>
       </div>
     </div>
   </section>
-  <!-- end food section -->
 
-  <!-- footer section -->
+  <!-- FOOTER -->
   <footer class="footer_section">
     <div class="container">
       <div class="row">
         <div class="col-md-4 footer-col">
-          <div class="footer_contact">
-            <h4>
-              Contact Us
-            </h4>
-            <div class="contact_link_box">
-              <a href="">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <span>
-                  545 W 18th St, Hialeah, FL 33010
-                </span>
-              </a>
-              <a href="">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <span>
-                  Call +1 (786) 344-4445
-                </span>
-              </a>
-              <a href="">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                <span>
-                  yampeng89@gmail.com
-                </span>
-              </a>
-            </div>
+          <h4>Contact Us</h4>
+          <p>545 W 18th St, Hialeah, FL 33010</p>
+          <p>+1 (786) 344-4445</p>
+          <p>yampeng89@gmail.com</p>
+        </div>
+
+        <div class="col-md-4 footer-col">
+          <h4>Social Media</h4>
+          <div class="footer_social">
+            <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
           </div>
         </div>
 
         <div class="col-md-4 footer-col">
-          <div class="footer_detail">
-            <a href="" class="footer-logo">
-              Social Media
-            </a>
-
-            <div class="footer_social">
-              <a href="">
-                <i class="fa fa-whatsapp" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-              </a>
-
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 footer-col">
-          <h4>
-            Opening Hours
-          </h4>
-          <p>
-            Monday to Friday
-          </p>
-          <p>
-            9:00 AM – 5:00 PM
-          </p>
+          <h4>Opening Hours</h4>
+          <p>Monday to Friday</p>
+          <p>9:00 AM – 5:00 PM</p>
         </div>
       </div>
     </div>
   </footer>
-  <!-- footer section -->
 
-  <!-- jQery -->
+  <!-- JS LIBRARIES -->
   <script src="js/jquery-3.4.1.min.js"></script>
-  <!-- popper js -->
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
-  <!-- bootstrap js -->
   <script src="js/bootstrap.js"></script>
-  <!-- owl slider -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-  </script>
-  <!-- isotope js -->
-  <script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
-  <!-- nice select -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
-  <!-- custom js -->
-  <script src="js/custom.js"></script>
-  <!-- Google Map -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
-  </script>
 
-  <!-- Logic for menu + categories -->
+  <!-- MENU + FILTER LOGIC -->
   <script>
+    // Cargar datos del menú desde JSON
     async function loadMenu() {
       const response = await fetch("data/menu.json");
       const items = await response.json();
@@ -229,14 +187,23 @@
       });
     }
 
+    // FILTRO CON ANIMACIÓN
     function filterItems(filter) {
-      document.querySelectorAll('#menuGrid .menu-item').forEach(card => {
-        if (filter === "*") {
+      const cards = document.querySelectorAll('#menuGrid .menu-item');
+
+      cards.forEach(card => {
+        const matches = filter === "*" || card.classList.contains(filter.replace('.', ''));
+
+        if (matches) {
           card.style.display = "block";
+
+          card.classList.remove("show");
+          void card.offsetWidth; // reset animación
+          card.classList.add("show");
+
         } else {
-          card.style.display = card.classList.contains(filter.replace('.', ''))
-            ? "block"
-            : "none";
+          card.classList.remove("show");
+          card.style.display = "none";
         }
       });
     }
@@ -246,7 +213,9 @@
         btn.addEventListener('click', () => {
           const filter = btn.getAttribute('data-filter');
 
-          document.querySelectorAll('.filters_menu li').forEach(b => b.classList.remove('active'));
+          document.querySelectorAll('.filters_menu li')
+            .forEach(b => b.classList.remove('active'));
+
           btn.classList.add('active');
 
           filterItems(filter);
@@ -254,11 +223,11 @@
       });
     }
 
-    // Cargar menú y aplicar filtro inicial
+    // AL CARGAR LA PÁGINA
     window.addEventListener("DOMContentLoaded", async () => {
-      await loadMenu();          // 1) Primero cargo los productos
-      filterItems(".juices");    // 2) Luego muestro solo 'juices'
-      setupFilters();            // 3) Y activo los botones de filtro
+      await loadMenu();          // Cargar productos
+      filterItems(".frozen");    // Mostrar JUICES con animación
+      setupFilters();            // Activar botones
     });
   </script>
 
