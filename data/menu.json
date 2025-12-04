@@ -1,13 +1,13 @@
 [
-  {
-    "name": "Ají Amarillo",
-    "description": "",
-    "image": "images/f1.png",
-    "category": "congelados",
-    "variants": [
-     { "size": "1 lb.", "price": 3.49 }
-    ]
-  },
+{
+  "name": "Ají Amarillo",
+  "description": "",
+  "image": "images/f1.png",
+  "category": "congelados",
+  "variants": [
+    { "size": "1 lb.", "price": 3.49 }
+  ]
+},
 {
   "name": "Ají Amarillo Desvenado",
   "description": "",
@@ -73,52 +73,59 @@
   { "size": "1 lb.", "price": 3.49 }
 ]
 },
-  {
-    "name": "Frozen Vegetables Mix",
-    "description": "Mixed vegetables ready to cook, frozen for freshness.",
-    "price": 7.50,
-    "image": "images/f1.png",
-    "category": "pizza"
-  },
-  {
-    "name": "Green Peas in Brine",
-    "description": "Tender green peas preserved in brine.",
-    "price": 4.25,
-    "image": "images/f1.png",
-    "category": "pizza"
-  },
-  {
-    "name": "Oat Grain Cereal",
-    "description": "Healthy oat cereal, ideal for everyday breakfast.",
-    "price": 6.10,
-    "image": "images/f1.png",
-    "category": "pizza"
-  },
-    {
-    "name": "Oat Grain Cereal",
-    "description": "Healthy oat cereal, ideal for everyday breakfast.",
-    "price": 6.10,
-    "image": "images/f1.png",
-    "category": "pizza"
-  },
-    {
-    "name": "Oat Grain Cereal",
-    "description": "Healthy oat cereal, ideal for everyday breakfast.",
-    "price": 6.10,
-    "image": "images/f1.png",
-    "category": "pizza"
-  },{
-    "name": "Passion Fruit",
-    "description": "Healthy oat cereal, ideal for everyday breakfast.",
-    "price": 18.75,
-    "image": "images/f10.png",
-    "category": "aseptic"
-  } ,
-    {
-    "name": "Mango",
-    "description": "Healthy oat cereal, ideal for everyday breakfast.",
-    "price": 11.25,
-    "image": "images/f11.png",
-    "category": "aseptic"
-  }
+{
+  "name": "Papa Amarilla",
+  "description": "",
+  "image": "images/f9.png",
+  "category": "congelados",
+  "variants": [
+  { "size": "1 lb.", "price": 3.49 }
+]
+},
+{
+  "name": "Lucuma En Pulpa",
+  "description": "",
+  "image": "images/f10.png",
+  "category": "congelados",
+  "variants": [
+  { "size": "14 oz.", "price": 3.49 }
+]
+},
+{
+  "name": "Chirimoya En Pulpa",
+  "description": "",
+  "image": "images/f11.png",
+  "category": "congelados",
+  "variants": [
+  { "size": "14 oz.", "price": 3.49 }
+]
+},
+{
+  "name": "Maracuya En Pulpa",
+  "description": "",
+  "image": "images/f12.png",
+  "category": "congelados",
+  "variants": [
+  { "size": "14 oz.", "price": 3.49 },
+    { "size": "2.2 lb.", "price": 3.49 }
+]
+},
+{
+  "name": "Rocoto Entero",
+  "description": "",
+  "image": "images/f13.png",
+  "category": "congelados",
+  "variants": [
+  { "size": "1 lb.", "price": 3.49 }
+]
+},
+{
+  "name": "Rocoto Entero Desvenado",
+  "description": "",
+  "image": "images/f13.png",
+  "category": "congelados",
+  "variants": [
+  { "size": "2 lb.", "price": 3.49 }
+]
+}
 ]
