@@ -127,5 +127,54 @@
   "variants": [
   { "size": "2 lb.", "price": 3.49 }
 ]
+},
+{
+  "name": "Chicha Morada",
+  "description": "",
+  "image": "images/f14.png",
+  "category": "jugos",
+  "variants": [
+  { "size": "16 oz.", "price": 3.49 },
+ { "size": "1 litro.", "price": 3.49 }
+]
+},
+{
+  "name": "Maracuya Nectar",
+  "description": "",
+  "image": "images/f15.png",
+  "category": "jugos",
+  "variants": [
+  { "size": "16 oz.", "price": 3.49 },
+ { "size": "1 litro.", "price": 3.49 }
+]
+},
+{
+  "name": "Emoliente Herbal & Fruit Tea",
+  "description": "",
+  "image": "images/f16.png",
+  "category": "jugos",
+  "variants": [
+  { "size": "16 oz.", "price": 3.49 },
+ { "size": "1 litro.", "price": 3.49 }
+]
+},
+{
+  "name": "Mango Nectar",
+  "description": "",
+  "image": "images/f17.png",
+  "category": "jugos",
+  "variants": [
+  { "size": "16 oz.", "price": 3.49 },
+ { "size": "1 litro.", "price": 3.49 }
+]
+},
+{
+  "name": "Aceituna Botija",
+  "description": "",
+  "image": "images/f19.png",
+  "category": "aceitunas",
+  "variants": [
+  { "size": "330 gr.", "price": 3.49 }
+]
 }
 ]
