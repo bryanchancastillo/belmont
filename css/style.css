@@ -154,8 +154,9 @@ a:focus {
 .navbar-brand span {
   font-weight: bold;
   font-size: 32px;
-  color: #ffffff;
+  color: #000000 !important; /* Negro */
 }
+
 
 .custom_nav-container {
   padding: 0;
@@ -899,6 +900,7 @@ a:focus {
 }
 
 /* footer section*/
+/* footer section*/
 .footer_section {
   background-color: #222831;
   color: #ffffff;
@@ -919,6 +921,17 @@ a:focus {
 
 .footer_section p {
   color: #dbdbdb;
+}
+
+/* 💡 NUEVO: todos los links del footer se ven como el texto */
+.footer_section a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer_section a:hover {
+  color: inherit;
+  text-decoration: none;
 }
 
 .footer_section .footer-col {
@@ -987,9 +1000,6 @@ a:focus {
   font-size: 18px;
 }
 
-.footer_section .footer_social a:hover {
-  color: #ffbe33;
-}
 
 .footer_section .footer-info {
   text-align: center;
@@ -1004,4 +1014,5 @@ a:focus {
 .footer_section .footer-info p a {
   color: inherit;
 }
+
 /*# sourceMappingURL=style.css.map */

@@ -64,62 +64,25 @@
 
 <body>
 
-  <div class="hero_area">
-    <div class="bg-box">
-      <img src="images/belmont.png" alt="">
-    </div>
-
-    <!-- Header -->
-    <header class="header_section">
-      <div class="container">
+      <div class="container text-">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
-            <span>Sandra Hartman</span>
+            <span >Sandra Hartman</span>
           </a>
         </nav>
       </div>
-    </header>
+    
 
-    <!-- Slider -->
-    <section class="slider_section ">
-      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="container ">
-              <div class="row">
-                <div class="col-md-7 col-lg-6 ">
-                  <div class="detail-box">
-                  <h1>About Me</h1>
-                  <p>
-                    With more than 10 years of experience working with high-quality food equipment and
-                    supplies from the renowned Peruvian brand Belmont, Sandra has become a trusted
-                    advisor for families, small businesses, and supermarkets looking to improve their
-                    operations with reliable, durable products.
-                    <br><br>
-                    She offers expert guidance to help each customer choose the best options for
-                    storage, refrigeration, organization, and everyday food preparation — always focusing
-                    on quality, efficiency, and long-term value. Whether you need equipment for your home
-                    kitchen or for a high-demand commercial environment, Sandra ensures a fast,
-                    professional, and worry-free buying experience.
-                  </p>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-    </section>
-  </div>
 
   <!-- FOOD SECTION -->
   <section class="food_section layout_padding-bottom">
     <div class="container">
       <div class="heading_container heading_center mt-4">
-        <h2>Our Menu</h2>
+        <h2>Menu</h2>
       </div>
 
       <ul class="filters_menu">
-        <li class="active" data-filter=".frozen">Frozen</li>
+        <li class="active" data-filter=".congelados">Congelados</li>
         <li data-filter=".pizza">Pizza</li>
         <li data-filter=".pasta">Pasta</li>
         <li data-filter=".fries">Fries</li>
@@ -133,32 +96,58 @@
   </section>
 
   <!-- FOOTER -->
-  <footer class="footer_section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 footer-col">
-          <h4>Contact Us</h4>
-          <p>545 W 18th St, Hialeah, FL 33010</p>
-          <p>+1 (786) 344-4445</p>
-          <p>yampeng89@gmail.com</p>
-        </div>
+<footer class="footer_section">
+  <div class="container">
+    <div class="row">
 
-        <div class="col-md-4 footer-col">
-          <h4>Social Media</h4>
-          <div class="footer_social">
-            <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-          </div>
-        </div>
+      <!-- Contact -->
+      <div class="col-md-4 footer-col">
+        <h4>Contactame</h4>
 
-        <div class="col-md-4 footer-col">
-          <h4>Opening Hours</h4>
-          <p>Monday to Friday</p>
-          <p>9:00 AM – 5:00 PM</p>
-        </div>
+        <!-- Dirección (Google Maps) -->
+        <p>
+          <a href="https://www.google.com/maps?q=545+W+18th+St,+Hialeah,+FL+33010" target="_blank">
+            <i class="fa fa-map-marker"></i> 545 W 18th St, Hialeah, FL 33010
+          </a>
+        </p>
+
+        <!-- Teléfono -->
+        <p>
+          <a href="tel:+17863444445">
+            <i class="fa fa-phone"></i> +1 (786) 344-4445
+          </a>
+        </p>
+
+        <!-- Correo -->
+        <p>
+          <a href="mailto:yampeng89@gmail.com">
+            <i class="fa fa-envelope"></i> yampeng89@gmail.com
+          </a>
+        </p>
       </div>
+
+      <!-- Social -->
+    <div class="col-md-4 footer-col">
+  <h4>Social Media</h4>
+  <div class="footer_social">
+    <a href="https://wa.me/17863444445" target="_blank">
+      <i class="fa fa-whatsapp" aria-hidden="true"></i>
+    </a>
+  </div>
+</div>
+
+
+      <!-- Opening Hours -->
+      <div class="col-md-4 footer-col">
+        <h4>Horario</h4>
+        <p>Lunes a Viernes</p>
+        <p>9:00 AM – 5:00 PM</p>
+      </div>
+
     </div>
-  </footer>
+  </div>
+</footer>
+
 
   <!-- JS LIBRARIES -->
   <script src="js/jquery-3.4.1.min.js"></script>
@@ -175,26 +164,70 @@
       grid.innerHTML = "";
 
       items.forEach(item => {
-        const card = `
-          <div class="col-sm-6 col-lg-4 all ${item.category} menu-item">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="${item.image}" alt="${item.name}">
-                </div>
-                <div class="detail-box">
-                  <h5>${item.name}</h5>
-                  <p>${item.description}</p>
-                  <div class="options">
-                    <h6>$${item.price}</h6>
-                  </div>
-                </div>
-              </div>
-            </div>
+  let optionsHtml = "";
+
+  // ¿Tiene variantes?
+  if (Array.isArray(item.variants) && item.variants.length > 0) {
+    const variantsHtml = item.variants
+      .map(v => {
+        const price = typeof v.price === "number" ? v.price.toFixed(2) : v.price;
+
+        return `
+          <div style="display:flex;align-items:center;gap:10px;">
+            <span style="
+              background:#ffffff20;
+              padding:3px 10px;
+              border-radius:6px;
+              font-size:13px;
+              font-weight:600;
+              letter-spacing:0.5px;
+            ">
+              ${v.size}
+            </span>
+            <span style="font-size:15px;font-weight:500;color:#fff;">
+              $${price}
+            </span>
           </div>
         `;
-        grid.innerHTML += card;
-      });
+      })
+      .join("");
+
+    optionsHtml = `
+      <div class="options" style="display:flex;flex-direction:column;gap:8px;margin-top:12px;">
+        ${variantsHtml}
+      </div>
+    `;
+  } else {
+    // Sin variantes
+    const price = typeof item.price === "number" ? item.price.toFixed(2) : item.price;
+
+    optionsHtml = `
+      <div class="options" style="margin-top:12px;">
+        <h6>$${price}</h6>
+      </div>
+    `;
+  }
+
+  const card = `
+    <div class="col-sm-6 col-lg-4 all ${item.category} menu-item">
+      <div class="box">
+        <div>
+          <div class="img-box">
+            <img src="${item.image}" alt="${item.name}">
+          </div>
+          <div class="detail-box">
+            <h5>${item.name}</h5>
+            <p>${item.description}</p>
+            ${optionsHtml}
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+
+  grid.innerHTML += card;
+});
+
     }
 
     // FILTRO CON ANIMACIÓN
@@ -236,7 +269,7 @@
     // AL CARGAR LA PÁGINA
     window.addEventListener("DOMContentLoaded", async () => {
       await loadMenu();          // Cargar productos
-      filterItems(".frozen");    // Mostrar JUICES con animación
+      filterItems(".congelados");    // Mostrar JUICES con animación
       setupFilters();            // Activar botones
     });
   </script>

@@ -1,18 +1,78 @@
 [
   {
-    "name": "Yellow Chill Pepper",
-    "description": "Rich and tasty tomato sauce for your pasta.",
-    "price": 5.99,
+    "name": "Ají Amarillo",
+    "description": "",
     "image": "images/f1.png",
-    "category": "frozen"
+    "category": "congelados",
+    "variants": [
+     { "size": "1 lb.", "price": 3.49 }
+    ]
   },
-  {
-    "name": "Yellow Chill Pepper Desvenado",
-    "description": "Rich and tasty tomato sauce for your pasta.",
-    "price": 3.49,
-    "image": "images/f2.png",
-    "category": "frozen"
-  },
+{
+  "name": "Ají Amarillo Desvenado",
+  "description": "",
+  "image": "images/f2.png",
+  "category": "congelados",
+  "variants": [
+  { "size": "12 oz.", "price": 3.49 },
+  { "size": "2 lb.", "price": 5.99 }
+]
+},
+{
+  "name": "Ají Limo",
+  "description": "",
+  "image": "images/f3.png",
+  "category": "congelados",
+  "variants": [
+  { "size": "14 oz.", "price": 3.49 }
+]
+},
+{
+  "name": "Caigua Entera",
+  "description": "",
+  "image": "images/f4.png",
+  "category": "congelados",
+  "variants": [
+  { "size": "1 lb.", "price": 3.49 }
+]
+},
+{
+  "name": "Choclo Desgranado",
+  "description": "",
+  "image": "images/f5.png",
+  "category": "congelados",
+  "variants": [
+  { "size": "1 lb.", "price": 3.49 },
+ { "size": "3 lb.", "price": 5.99 }
+]
+},
+{
+  "name": "Choclo Entero",
+  "description": "",
+  "image": "images/f6.png",
+  "category": "congelados",
+  "variants": [
+  { "size": "1.4 lb.", "price": 3.49 }
+]
+},
+{
+  "name": "Huacatay",
+  "description": "",
+  "image": "images/f7.png",
+  "category": "congelados",
+  "variants": [
+  { "size": "1 lb.", "price": 3.49 }
+]
+},
+{
+  "name": "Olluco",
+  "description": "",
+  "image": "images/f8.png",
+  "category": "congelados",
+  "variants": [
+  { "size": "1 lb.", "price": 3.49 }
+]
+},
   {
     "name": "Frozen Vegetables Mix",
     "description": "Mixed vegetables ready to cook, frozen for freshness.",
@@ -40,26 +100,20 @@
     "price": 6.10,
     "image": "images/f1.png",
     "category": "pizza"
-  }
-  ,
+  },
     {
     "name": "Oat Grain Cereal",
     "description": "Healthy oat cereal, ideal for everyday breakfast.",
     "price": 6.10,
     "image": "images/f1.png",
     "category": "pizza"
-  }
-
-
-    ,
-    {
+  },{
     "name": "Passion Fruit",
     "description": "Healthy oat cereal, ideal for everyday breakfast.",
     "price": 18.75,
     "image": "images/f10.png",
     "category": "aseptic"
-  }
-  ,
+  } ,
     {
     "name": "Mango",
     "description": "Healthy oat cereal, ideal for everyday breakfast.",
