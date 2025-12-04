@@ -1016,3 +1016,36 @@ a:focus {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.brand-chips {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+/* ESTILO BASE: solo texto */
+.brand-chips .chip {
+  background: transparent;
+  border: none;
+  padding: 0;
+  font-size: 14px;
+  color: #222831;
+  text-transform: uppercase;
+  cursor: pointer;
+  opacity: 0.75;
+  transition: 0.2s ease;
+}
+
+/* Hover: solo aumentar opacidad */
+.brand-chips .chip:hover {
+  opacity: 1;
+}
+
+/* ACTIVO: subrayado elegante */
+.brand-chips .chip.active {
+  opacity: 1;
+  font-weight: 700;
+  border-bottom: 2px solid #222831;
+  padding-bottom: 2px;
+}

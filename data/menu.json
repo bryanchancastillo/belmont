@@ -1,6 +1,7 @@
 [
 {
   "name": "Ají Amarillo",
+    "brand": "Belmont",
   "description": "",
   "image": "images/f1.png",
   "category": "congelados",
@@ -10,6 +11,7 @@
 },
 {
   "name": "Ají Amarillo Desvenado",
+    "brand": "Belmont",
   "description": "",
   "image": "images/f2.png",
   "category": "congelados",
@@ -20,6 +22,7 @@
 },
 {
   "name": "Ají Limo",
+      "brand": "Belmont",
   "description": "",
   "image": "images/f3.png",
   "category": "congelados",
@@ -29,6 +32,7 @@
 },
 {
   "name": "Caigua Entera",
+      "brand": "Belmont",
   "description": "",
   "image": "images/f4.png",
   "category": "congelados",
@@ -38,6 +42,7 @@
 },
 {
   "name": "Choclo Desgranado",
+      "brand": "Belmont",
   "description": "",
   "image": "images/f5.png",
   "category": "congelados",
@@ -48,6 +53,7 @@
 },
 {
   "name": "Choclo Entero",
+      "brand": "Belmont",
   "description": "",
   "image": "images/f6.png",
   "category": "congelados",
@@ -57,6 +63,7 @@
 },
 {
   "name": "Huacatay",
+      "brand": "Belmont",
   "description": "",
   "image": "images/f7.png",
   "category": "congelados",
@@ -66,6 +73,7 @@
 },
 {
   "name": "Olluco",
+      "brand": "Belmont",
   "description": "",
   "image": "images/f8.png",
   "category": "congelados",
@@ -75,6 +83,7 @@
 },
 {
   "name": "Papa Amarilla",
+      "brand": "Belmont",
   "description": "",
   "image": "images/f9.png",
   "category": "congelados",
@@ -84,6 +93,7 @@
 },
 {
   "name": "Lucuma En Pulpa",
+      "brand": "Belmont",
   "description": "",
   "image": "images/f10.png",
   "category": "congelados",
@@ -93,6 +103,7 @@
 },
 {
   "name": "Chirimoya En Pulpa",
+      "brand": "Belmont",
   "description": "",
   "image": "images/f11.png",
   "category": "congelados",
@@ -102,6 +113,7 @@
 },
 {
   "name": "Maracuya En Pulpa",
+      "brand": "Belmont",
   "description": "",
   "image": "images/f12.png",
   "category": "congelados",
@@ -112,6 +124,7 @@
 },
 {
   "name": "Rocoto Entero",
+      "brand": "Belmont",
   "description": "",
   "image": "images/f13.png",
   "category": "congelados",
@@ -121,6 +134,7 @@
 },
 {
   "name": "Rocoto Entero Desvenado",
+      "brand": "Belmont",
   "description": "",
   "image": "images/f13.png",
   "category": "congelados",
@@ -130,6 +144,7 @@
 },
 {
   "name": "Chicha Morada",
+      "brand": "Belmont",
   "description": "",
   "image": "images/f14.png",
   "category": "jugos",
@@ -140,6 +155,7 @@
 },
 {
   "name": "Maracuya Nectar",
+      "brand": "Belmont",
   "description": "",
   "image": "images/f15.png",
   "category": "jugos",
@@ -150,6 +166,7 @@
 },
 {
   "name": "Emoliente Herbal & Fruit Tea",
+      "brand": "Belmont",
   "description": "",
   "image": "images/f16.png",
   "category": "jugos",
@@ -160,6 +177,7 @@
 },
 {
   "name": "Mango Nectar",
+      "brand": "Belmont",
   "description": "",
   "image": "images/f17.png",
   "category": "jugos",
@@ -170,6 +188,7 @@
 },
 {
   "name": "Aceituna Botija",
+      "brand": "Belmont",
   "description": "",
   "image": "images/f19.png",
   "category": "aceitunas",
