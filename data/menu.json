@@ -299,128 +299,242 @@
 {
   "name": "Aceituna Botija",
       "brand": "Belmont",
-  "description": "",
+  "description": "UPC: 8-59174-00386-3",
   "image": "images/f19.png",
   "category": "aceitunas",
   "variants": [
-  { "size": "330 gr.", "price": 3.49 }
+    {
+        "size": "330 gr.",
+        "case": "12",
+        "unitPrice": 3.25,
+        "casePrice": 39.00
+      }
 ]
 },
 {
   "name": "Ají Amarillo Pasta",
   "brand": "Belmont",
-  "description": "",
+  "description": "UPC: 8-59174-00375-7",
   "image": "images/f20.png",
   "category": "salsas",
   "variants": [
-  { "size": "8.0 oz.", "price": 3.49 },
-    { "size": "16 oz.", "price": 3.49 },
-        { "size": "7 lb.", "price": 3.49 }
+      {
+        "size": "8 oz.",
+        "case": "12",
+        "unitPrice": 2.08,
+        "casePrice": 24.90
+      }
 ]
 },
 {
+  "name": "Ají Amarillo Pasta",
+  "brand": "Belmont",
+  "description": "UPC: 8-59174-00303-0",
+  "image": "images/f20.png",
+  "category": "salsas",
+  "variants": [
+      {
+        "size": "16 oz.",
+        "case": "12",
+        "unitPrice": 3.66,
+        "casePrice": 44.00
+      }
+]
+},
+
+{
   "name": "Ají Amarillo Bajo En Picante Pasta",
   "brand": "Belmont",
-  "description": "",
+  "description": "UPC: 8-59174-00329-0",
   "image": "images/f21.png",
   "category": "salsas",
   "variants": [
-    { "size": "16 oz.", "price": 3.49 }
+      {
+        "size": "16 oz.",
+        "case": "12",
+        "unitPrice": 5.25,
+        "casePrice": "63.00"
+      }
 ]
 },
 {
   "name": "Ají Panca Pasta",
   "brand": "Belmont",
-  "description": "",
+  "description": "UPC: 8-59174-00377-1",
   "image": "images/f22.png",
   "category": "salsas",
   "variants": [
-        { "size": "8 oz.", "price": 3.49 },
-    { "size": "16 oz.", "price": 3.49 },
-           { "size": "7 lb.", "price": 3.49 }
+      {
+        "size": "8.0 oz.",
+        "case": "12",
+        "unitPrice": 2.08,
+        "casePrice": "24.90"
+      }
+]
+},
+{
+  "name": "Ají Panca Pasta",
+  "brand": "Belmont",
+  "description": "UPC: 8-59174-00304-7",
+  "image": "images/f22.png",
+  "category": "salsas",
+  "variants": [
+      {
+        "size": "16 oz.",
+        "case": "12",
+        "unitPrice": 3.66,
+        "casePrice": "44.00"
+      }
 ]
 },
 {
   "name": "Ají Panca Bajo En Picante Pasta",
   "brand": "Belmont",
-  "description": "",
+  "description": "UPC: 8-59174-00335-1",
   "image": "images/f22.png",
   "category": "salsas",
   "variants": [
-    { "size": "16 oz.", "price": 3.49 }
+      {
+        "size": "16 oz.",
+        "case": "12",
+        "unitPrice": 5.25,
+        "casePrice": "63.00"
+      }
 ]
 },
 {
   "name": "Ají Mirasol Pasta",
   "brand": "Belmont",
-  "description": "",
+  "description": "UPC: 8-59174-00332-0",
   "image": "images/f23.png",
   "category": "salsas",
   "variants": [
-    { "size": "8 oz.", "price": 3.49 }
+     {
+        "size": "8 oz.",
+        "case": "12",
+        "unitPrice": 2.08,
+        "casePrice": "24.90"
+      }
 ]
 },
 {
   "name": "Ajo Pasta",
   "brand": "Belmont",
-  "description": "",
+  "description": "UPC: 8-59174-00379-5",
   "image": "images/f24.png",
   "category": "salsas",
   "variants": [
-    { "size": "8 oz.", "price": 3.49 },
-        { "size": "16 oz.", "price": 3.49 }
+    {
+        "size": "8 oz.",
+        "case": "12",
+        "unitPrice": 2.08,
+        "casePrice": "24.90"
+      }
+]
+},
+{
+  "name": "Ajo Pasta",
+  "brand": "Belmont",
+  "description": "UPC: 8-59174-00306-1",
+  "image": "images/f24.png",
+  "category": "salsas",
+  "variants": [
+    {
+        "size": "16 oz.",
+        "case": "12",
+        "unitPrice": 3.83,
+        "casePrice": "45.90"
+      }
 ]
 },
 {
   "name": "Culantro Pasta",
   "brand": "Belmont",
-  "description": "",
+  "description": "UPC: 8-59174-00381-8",
   "image": "images/f25.png",
   "category": "salsas",
   "variants": [
-    { "size": "8 oz.", "price": 3.49 }
+      {
+        "size": "8 oz.",
+        "case": "12",
+        "unitPrice": 2.08,
+        "casePrice": "24.90"
+      }
 ]
 },
 {
   "name": "Huacatay Pasta",
   "brand": "Belmont",
-  "description": "",
+  "description": "UPC: 8-59174-00378-8",
   "image": "images/f26.png",
   "category": "salsas",
   "variants": [
-    { "size": "8 oz.", "price": 3.49 }
+        {
+        "size": "8 oz.",
+        "case": "12",
+        "unitPrice": 2.08,
+        "casePrice": "24.90"
+      }
 ]
 },
 {
   "name": "Albahaca Pasta",
   "brand": "Belmont",
-  "description": "",
+  "description": "UPC: 8-59174-00380-1",
   "image": "images/f27.png",
   "category": "salsas",
   "variants": [
-    { "size": "8 oz.", "price": 3.49 }
+      {
+        "size": "8 oz.",
+        "case": "12",
+        "unitPrice": 2.08,
+        "casePrice": "24.90"
+      }
 ]
 },
 {
   "name": "Rocoto Pasta",
   "brand": "Belmont",
-  "description": "",
+  "description": "UPC: 8-59174-00376-4",
   "image": "images/f28.png",
   "category": "salsas",
   "variants": [
-    { "size": "8 oz.", "price": 3.49 },
-       { "size": "16 oz.", "price": 3.49 },
-              { "size": "7 lb.", "price": 3.49 }
+      {
+        "size": "8 oz.",
+        "case": "12",
+        "unitPrice": 2.08,
+        "casePrice": "24.90"
+      }
 ]
 },
 {
-  "name": "Albahaca Pasta",
+  "name": "Rocoto Pasta",
   "brand": "Belmont",
-  "description": "",
+  "description": "UPC: 8-59174-00305-4",
+  "image": "images/f28.png",
+  "category": "salsas",
+  "variants": [
+      {
+        "size": "16 oz.",
+        "case": "12",
+        "unitPrice": 3.66,
+        "casePrice": "44.00"
+      }
+]
+},
+{
+  "name": "Aredezo Para Anticucho",
+  "brand": "Belmont",
+  "description": "UPC: 8-59174-00399-3",
   "image": "images/f29.png",
   "category": "salsas",
   "variants": [
-    { "size": "15 oz.", "price": 3.49 }
+      {
+        "size": "15 oz.",
+        "case": "12",
+        "unitPrice": 3.75,
+        "casePrice": "45.00"
+      }
 ]
 },
 {
