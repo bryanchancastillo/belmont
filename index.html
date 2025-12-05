@@ -79,25 +79,73 @@
 
 <body>
 
-  <div class="container text-">
-    <nav class="navbar navbar-expand-lg custom_nav-container ">
-      <a class="navbar-brand" href="index.html">
-        <span>Sandra Hartman</span>
-      </a>
-    </nav>
+  <div class="hero_area">
+    <div class="bg-box">
+      <img src="images/belmont.png" alt="">
+    </div>
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              Sandra Hartman
+            </span>
+          </a>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class="slider_section ">
+      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-7 col-lg-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      Sobre Mi
+                    </h1>
+                    <p>
+                      Soy Sandra Hartman, y con más de 10 años de experiencia ofreciendo productos de
+                      reconocidas marcas peruanas, me he convertido en una asesora confiable para clientes
+                      que buscan calidad, seguridad y un servicio personalizado. Mi compromiso es guiarte
+                      a elegir los productos ideales para tu negocio, brindándote siempre una
+                      atención rápida, clara y profesional. Conmigo no solo compras un producto: obtienes
+                      confianza, respaldo y una experiencia de compra excepcional.
+                    </p>
+                    <div class="btn-box" style="margin-top:20px;">
+                      <a href="#menuSection" class="btn1">
+                        Ver Menú
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- end slider section -->
   </div>
 
+
   <!-- FOOD SECTION -->
-  <section class="food_section layout_padding-bottom">
+  <section id="menuSection" class="food_section layout_padding-bottom">
     <div class="container">
       <div class="heading_container heading_center mt-4">
         <h2>Menu</h2>
       </div>
 
+
       <ul class="filters_menu">
         <li class="active" data-filter=".congelados">Congelados</li>
         <li data-filter=".jugos">Jugos</li>
-             <li data-filter=".salsas">Salsas & Pastas </li>
+        <li data-filter=".salsas">Salsas & Pastas </li>
         <li data-filter=".aceitunas">Aceitunas</li>
         <li data-filter=".salmuera">En Salmuera</li>
         <li data-filter=".aseptic">Aseptic</li>
@@ -113,11 +161,10 @@
 
       <div class="filters-content">
 
-      <div class="row grid" id="menuGrid"></div>
+        <div class="row grid" id="menuGrid"></div>
 
-      <div id="noResultsMessage"
-          style="display:none; margin-top:45px; text-align:center; color:#222831;">
-        <div style="
+        <div id="noResultsMessage" style="display:none; margin-top:45px; text-align:center; color:#222831;">
+          <div style="
           display:flex;
           flex-direction:column;
           align-items:center;
@@ -126,18 +173,12 @@
           max-width:250px;
           margin:auto;
         ">
-          <i class="fa fa-exclamation-circle" style="font-size:36px; margin-bottom:12px; color:#222831;"></i>
-          <span style="font-size:17px; font-weight:600; line-height:1.3; display:block; color:#222831;">
-            No existen productos para esta selección.
-          </span>
+            <i class="fa fa-exclamation-circle" style="font-size:36px; margin-bottom:12px; color:#222831;"></i>
+            <span style="font-size:17px; font-weight:600; line-height:1.3; display:block; color:#222831;">
+              No existen productos para esta selección.
+            </span>
+          </div>
         </div>
-      </div>
-
-
-
-
-
-        
       </div>
     </div>
   </section>
@@ -192,22 +233,22 @@
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
 
- <script>
-  let currentCategory = 'congelados';
-  let currentBrand = 'all';
+  <script>
+    let currentCategory = 'congelados';
+    let currentBrand = 'all';
 
-  async function loadMenu() {
-    const response = await fetch("data/menu.json");
-    const items = await response.json();
+    async function loadMenu() {
+      const response = await fetch("data/menu.json");
+      const items = await response.json();
 
-    const grid = document.getElementById("menuGrid");
-    grid.innerHTML = "";
+      const grid = document.getElementById("menuGrid");
+      grid.innerHTML = "";
 
-    items.forEach(item => {
-      let optionsHtml = "";
+      items.forEach(item => {
+        let optionsHtml = "";
 
-      if (Array.isArray(item.variants) && item.variants.length > 0) {
-        optionsHtml = `
+        if (Array.isArray(item.variants) && item.variants.length > 0) {
+          optionsHtml = `
           <div class="options" style="display:flex;flex-direction:column;gap:8px;margin-top:12px;">
             ${item.variants
               .map(v => {
@@ -236,10 +277,10 @@
 
                 <!-- case + case price -->
                 ${(caseInfo || casePrice)
-                  ? `<div style="font-size:12px;color:#e5e7eb;opacity:.9;">
+                    ? `<div style="font-size:12px;color:#e5e7eb;opacity:.9;">
                       Case: ${caseInfo}${casePrice ? ` · $${casePrice}` : ""}
                     </div>`
-                  : ""}
+                    : ""}
 
               </div>
 
@@ -247,21 +288,21 @@
               })
               .join("")}
           </div>`;
-      } else {
-        // por si tienes productos viejos sin variants
-        if (item.price) {
-          const price = typeof item.price === "number" ? item.price.toFixed(2) : item.price;
-          optionsHtml = `
+        } else {
+          // por si tienes productos viejos sin variants
+          if (item.price) {
+            const price = typeof item.price === "number" ? item.price.toFixed(2) : item.price;
+            optionsHtml = `
             <div class="options" style="margin-top:12px;">
               <h6>$${price}</h6>
             </div>
           `;
+          }
         }
-      }
 
-      const brand = item.brand || "";
+        const brand = item.brand || "";
 
-      const card = `
+        const card = `
         <div class="col-sm-6 col-lg-4 all ${item.category} menu-item"
              data-category="${item.category}"
              data-brand="${brand}">
@@ -278,75 +319,76 @@
         </div>
       `;
 
-      grid.innerHTML += card;
-    });
-  }
-
-  function applyFilters() {
-    const cards = document.querySelectorAll('#menuGrid .menu-item');
-    let visibleCount = 0;
-
-    cards.forEach(card => {
-      const matchCategory = currentCategory === 'all' || card.dataset.category === currentCategory;
-      const matchBrand = currentBrand === 'all' || card.dataset.brand === currentBrand;
-
-      if (matchCategory && matchBrand) {
-        visibleCount++;
-        card.style.display = "block";
-        card.classList.remove("show");
-        void card.offsetWidth;
-        card.classList.add("show");
-      } else {
-        card.style.display = "none";
-        card.classList.remove("show");
-      }
-    });
-
-    document.getElementById("noResultsMessage").style.display =
-      visibleCount === 0 ? "block" : "none";
-  }
-
-  function setupCategoryFilters() {
-    const buttons = document.querySelectorAll('.filters_menu li');
-
-    buttons.forEach(btn => {
-      btn.addEventListener('click', () => {
-        buttons.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-
-        const filter = btn.getAttribute('data-filter');
-
-        currentCategory = filter.replace('.', '');
-        applyFilters();
+        grid.innerHTML += card;
       });
-    });
-  }
+    }
 
-  function setupBrandChips() {
-    const chips = document.querySelectorAll(".chip");
+    function applyFilters() {
+      const cards = document.querySelectorAll('#menuGrid .menu-item');
+      let visibleCount = 0;
 
-    chips.forEach(chip => {
-      chip.addEventListener("click", () => {
-        chips.forEach(c => c.classList.remove("active"));
-        chip.classList.add("active");
+      cards.forEach(card => {
+        const matchCategory = currentCategory === 'all' || card.dataset.category === currentCategory;
+        const matchBrand = currentBrand === 'all' || card.dataset.brand === currentBrand;
 
-        currentBrand = chip.dataset.brand === "all" ? "all" : chip.dataset.brand;
-        applyFilters();
+        if (matchCategory && matchBrand) {
+          visibleCount++;
+          card.style.display = "block";
+          card.classList.remove("show");
+          void card.offsetWidth;
+          card.classList.add("show");
+        } else {
+          card.style.display = "none";
+          card.classList.remove("show");
+        }
       });
+
+      document.getElementById("noResultsMessage").style.display =
+        visibleCount === 0 ? "block" : "none";
+    }
+
+    function setupCategoryFilters() {
+      const buttons = document.querySelectorAll('.filters_menu li');
+
+      buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          buttons.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+
+          const filter = btn.getAttribute('data-filter');
+
+          currentCategory = filter.replace('.', '');
+          applyFilters();
+        });
+      });
+    }
+
+    function setupBrandChips() {
+      const chips = document.querySelectorAll(".chip");
+
+      chips.forEach(chip => {
+        chip.addEventListener("click", () => {
+          chips.forEach(c => c.classList.remove("active"));
+          chip.classList.add("active");
+
+          currentBrand = chip.dataset.brand === "all" ? "all" : chip.dataset.brand;
+          applyFilters();
+        });
+      });
+    }
+
+    window.addEventListener("DOMContentLoaded", async () => {
+      await loadMenu();
+      setupCategoryFilters();
+      setupBrandChips();
+
+      currentCategory = 'congelados';
+      currentBrand = 'all';
+      applyFilters();
     });
-  }
-
-  window.addEventListener("DOMContentLoaded", async () => {
-    await loadMenu();
-    setupCategoryFilters();
-    setupBrandChips();
-
-    currentCategory = 'congelados';
-    currentBrand = 'all';
-    applyFilters();
-  });
-</script>
+  </script>
 
 
 </body>
+
 </html>
