@@ -312,5 +312,55 @@
   "variants": [
     { "size": "15 oz.", "price": 3.49 }
 ]
+},
+{
+  "name": "Ají Amarillo Vidrio",
+  "brand": "Belmont",
+  "description": "",
+  "image": "images/f30.png",
+  "category": "salmuera",
+  "variants": [
+    { "size": "20 oz.", "price": 3.49 }
+]
+},
+{
+  "name": "Ají Amarillo Lata",
+  "brand": "Belmont",
+  "description": "",
+  "image": "images/f31.png",
+  "category": "salmuera",
+  "variants": [
+    { "size": "20 oz.", "price": 3.49 }
+]
+},
+{
+  "name": "Olluco Lata",
+  "brand": "Belmont",
+  "description": "",
+  "image": "images/f32.png",
+  "category": "salmuera",
+  "variants": [
+    { "size": "20 oz.", "price": 3.49 }
+]
+},
+{
+  "name": "Rocoto En Salmuera Lata",
+  "brand": "Belmont",
+  "description": "",
+  "image": "images/f33.png",
+  "category": "salmuera",
+  "variants": [
+    { "size": "20 oz.", "price": 3.49 }
+]
+},
+{
+  "name": "Choclo Desgranado Lata",
+  "brand": "Belmont",
+  "description": "",
+  "image": "images/f34.png",
+  "category": "salmuera",
+  "variants": [
+    { "size": "20 oz.", "price": 3.49 }
+]
 }
 ]
