@@ -1,34 +1,54 @@
 [
 {
   "name": "Ají Amarillo",
-    "brand": "Belmont",
-  "description": "",
+  "brand": "Belmont",
+  "description": "UPC: 8-59174-00307-8",
   "image": "images/f1.png",
   "category": "congelados",
   "variants": [
-    { "size": "1 lb.", "price": 3.49 }
+    { 
+      "size": "1 lb.",
+      "case": "18 bags",
+      "unitPrice": 2.50,
+      "casePrice": 45.00
+    }
   ]
 },
 {
   "name": "Ají Amarillo Desvenado",
-    "brand": "Belmont",
-  "description": "",
+  "brand": "Belmont",
+  "description": "UPC: 8-59174-00307-8",
   "image": "images/f2.png",
   "category": "congelados",
   "variants": [
-  { "size": "12 oz.", "price": 3.49 },
-  { "size": "2 lb.", "price": 5.99 }
-]
+    { 
+      "size": "12 oz.",
+      "case": "10 bags",
+      "unitPrice": 3.09,
+      "casePrice": 30.90
+    },
+    { 
+      "size": "2 lb.",
+      "case": "8 bags",
+      "unitPrice": 7.00,
+      "casePrice": 56.00
+    }
+  ]
 },
 {
   "name": "Ají Limo",
       "brand": "Belmont",
-  "description": "",
+  "description": "UPC: 8-59174-00314-6",
   "image": "images/f3.png",
   "category": "congelados",
   "variants": [
-  { "size": "14 oz.", "price": 3.49 }
-]
+      { 
+        "size": "14 oz.",
+        "case": "9 bags",
+        "unitPrice": 2.32,
+        "casePrice": 20.90
+      }
+    ]
 },
 {
   "name": "Caigua Entera",
