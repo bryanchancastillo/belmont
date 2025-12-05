@@ -195,5 +195,122 @@
   "variants": [
   { "size": "330 gr.", "price": 3.49 }
 ]
+},
+{
+  "name": "Ají Amarillo Pasta",
+  "brand": "Belmont",
+  "description": "",
+  "image": "images/f20.png",
+  "category": "salsas",
+  "variants": [
+  { "size": "8.0 oz.", "price": 3.49 },
+    { "size": "16 oz.", "price": 3.49 },
+        { "size": "7 lb.", "price": 3.49 }
+]
+},
+{
+  "name": "Ají Amarillo Bajo En Picante Pasta",
+  "brand": "Belmont",
+  "description": "",
+  "image": "images/f21.png",
+  "category": "salsas",
+  "variants": [
+    { "size": "16 oz.", "price": 3.49 }
+]
+},
+{
+  "name": "Ají Panca Pasta",
+  "brand": "Belmont",
+  "description": "",
+  "image": "images/f22.png",
+  "category": "salsas",
+  "variants": [
+        { "size": "8 oz.", "price": 3.49 },
+    { "size": "16 oz.", "price": 3.49 },
+           { "size": "7 lb.", "price": 3.49 }
+]
+},
+{
+  "name": "Ají Panca Bajo En Picante Pasta",
+  "brand": "Belmont",
+  "description": "",
+  "image": "images/f22.png",
+  "category": "salsas",
+  "variants": [
+    { "size": "16 oz.", "price": 3.49 }
+]
+},
+{
+  "name": "Ají Mirasol Pasta",
+  "brand": "Belmont",
+  "description": "",
+  "image": "images/f23.png",
+  "category": "salsas",
+  "variants": [
+    { "size": "8 oz.", "price": 3.49 }
+]
+},
+{
+  "name": "Ajo Pasta",
+  "brand": "Belmont",
+  "description": "",
+  "image": "images/f24.png",
+  "category": "salsas",
+  "variants": [
+    { "size": "8 oz.", "price": 3.49 },
+        { "size": "16 oz.", "price": 3.49 }
+]
+},
+{
+  "name": "Culantro Pasta",
+  "brand": "Belmont",
+  "description": "",
+  "image": "images/f25.png",
+  "category": "salsas",
+  "variants": [
+    { "size": "8 oz.", "price": 3.49 }
+]
+},
+{
+  "name": "Huacatay Pasta",
+  "brand": "Belmont",
+  "description": "",
+  "image": "images/f26.png",
+  "category": "salsas",
+  "variants": [
+    { "size": "8 oz.", "price": 3.49 }
+]
+},
+{
+  "name": "Albahaca Pasta",
+  "brand": "Belmont",
+  "description": "",
+  "image": "images/f27.png",
+  "category": "salsas",
+  "variants": [
+    { "size": "8 oz.", "price": 3.49 }
+]
+},
+{
+  "name": "Rocoto Pasta",
+  "brand": "Belmont",
+  "description": "",
+  "image": "images/f28.png",
+  "category": "salsas",
+  "variants": [
+    { "size": "8 oz.", "price": 3.49 },
+       { "size": "16 oz.", "price": 3.49 },
+              { "size": "7 lb.", "price": 3.49 }
+]
+},
+{
+  "name": "Albahaca Pasta",
+  "brand": "Belmont",
+  "description": "",
+  "image": "images/f29.png",
+  "category": "salsas",
+  "variants": [
+    { "size": "15 oz.", "price": 3.49 }
+]
 }
 ]
