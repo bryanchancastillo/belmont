@@ -148,6 +148,36 @@
       "casePrice": "87.90"
     }
   ]
+},
+{
+  "name": "Maíz Cancha Serrana / Fried Cancha",
+  "brand": "Inka Crops",
+  "category": "snacks",
+  "description": "UPC: 7-750526000994",
+  "image": "images/f112.png",
+  "variants": [
+    {
+      "size": "5.3 oz",
+      "case": "12",
+      "unitPrice": 2.24,
+      "casePrice": "26.95"
+    }
+  ]
+},
+{
+  "name": "Habas Tostadas / Faba Bean Toasted",
+  "brand": "Inka Crops",
+  "category": "snacks",
+  "description": "UPC: 7-750526001007",
+  "image": "images/f113.png",
+  "variants": [
+    {
+      "size": "5.3 oz",
+      "case": "12",
+      "unitPrice": 2.16,
+      "casePrice": "25.95"
+    }
+  ]
 }
 
  
