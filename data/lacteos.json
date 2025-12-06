@@ -1,0 +1,47 @@
+[
+    {
+        "name": "LECHE EVAPORADA / BONLE",
+        "brand": "Bonle",
+        "category": "lacteos",
+        "description": "UPC: 7-75127101118-1",
+        "image": "images/f81.png",
+        "variants": [
+            {
+                "size": "12 oz",
+                "case": "24",
+                "unitPrice": 1.00,
+                "casePrice": "25.50"
+            }
+        ]
+    },
+    {
+        "name": "BONLE Sweetened Condensed Filled Milk",
+        "brand": "Bonle",
+        "category": "lacteos",
+        "description": "UPC: ",
+        "image": "images/f82.png",
+        "variants": [
+            {
+                "size": "14 oz",
+                "case": "24",
+                "unitPrice": 1.06,
+                "casePrice": "25.50"
+            }
+        ]
+    },
+    {
+        "name": "LECHE EVAPORADA / GLORIA",
+        "brand": "Gloria",
+        "category": "lacteos",
+        "description": "UPC: 7-75127100561-6",
+        "image": "images/f83.png",
+        "variants": [
+            {
+                "size": "13 oz",
+                "case": "24",
+                "unitPrice": 1.25,
+                "casePrice": "29.90"
+            }
+        ]
+    }
+]
