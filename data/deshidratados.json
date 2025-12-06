@@ -1,0 +1,167 @@
+[
+    {
+        "name": "Aji de Gallina / Aji de Gallina Mix",
+        "brand": "Provenzal",
+        "category": "deshidratados",
+        "description": "UPC: 7-752308-134408",
+        "image": "images/f58.png",
+        "variants": [
+            {
+                "size": "100 g",
+                "case": "10 sachets",
+                "unitPrice": 2.19,
+                "casePrice": "21.90"
+            }
+        ]
+    },
+    {
+        "name": "Arroz con pollo / Rice Chicken Mix",
+        "brand": "Provenzal",
+        "category": "deshidratados",
+        "description": "UPC: 7-752308-090599",
+        "image": "images/f59.png",
+        "variants": [
+            {
+                "size": "58 g",
+                "case": "12 sachets",
+                "unitPrice": 2.16,
+                "casePrice": "25.90"
+            }
+        ]
+    },
+    {
+        "name": "Carapulcra / Carapulcra Mix",
+        "brand": "Provenzal",
+        "category": "deshidratados",
+        "description": "UPC: 7-752308-134446",
+        "image": "images/f60.png",
+        "variants": [
+            {
+                "size": "150 g",
+                "case": "6 sachets",
+                "unitPrice": 2.32,
+                "casePrice": "13.90"
+            }
+        ]
+    },
+    {
+        "name": "Cau Cau / Cau Cau Mix",
+        "brand": "Provenzal",
+        "category": "deshidratados",
+        "description": "UPC: 7-752308-684835",
+        "image": "images/f61.png",
+        "variants": [
+            {
+                "size": "60 g",
+                "case": "12 sachets",
+                "unitPrice": 2.16,
+                "casePrice": "25.90"
+            }
+        ]
+    },
+    {
+        "name": "Ceviche / Ceviche Mix",
+        "brand": "Provenzal",
+        "category": "deshidratados",
+        "description": "UPC: 7-752308-000635",
+        "image": "images/f62.png",
+        "variants": [
+            {
+                "size": "30 g",
+                "case": "20 sachets",
+                "unitPrice": 2.10,
+                "casePrice": "46.50"
+            }
+        ]
+    },
+    {
+        "name": "Ocopa / Ocopa Sauce Mix",
+        "brand": "Provenzal",
+        "category": "deshidratados",
+        "description": "UPC: 7-75230802329-0",
+        "image": "images/f63.png",
+        "variants": [
+            {
+                "size": "30 g",
+                "case": "12 sachets",
+                "unitPrice": 1.97,
+                "casePrice": "26.00"
+            }
+        ]
+    },
+    {
+        "name": "Olluquito / Olluquito Mix",
+        "brand": "Provenzal",
+        "category": "deshidratados",
+        "description": "UPC: 7-752308-178204",
+        "image": "images/f64.png",
+        "variants": [
+            {
+                "size": "78 g",
+                "case": "6 sachets",
+                "unitPrice": 3.25,
+                "casePrice": "19.50"
+            }
+        ]
+    },
+    {
+        "name": "Huncaina / Huancaina Mix",
+        "brand": "Provenzal",
+        "category": "deshidratados",
+        "description": "UPC: 7-752308-023306",
+        "image": "images/f65.png",
+        "variants": [
+            {
+                "size": "64 g",
+                "case": "12 sachets",
+                "unitPrice": 2.16,
+                "casePrice": "25.90"
+            }
+        ]
+    },
+    {
+        "name": "Picarones / Peruvian Donuts Mix",
+        "brand": "Provenzal",
+        "category": "deshidratados",
+        "description": "UPC: 7-752308-134422",
+        "image": "images/f66.png",
+        "variants": [
+            {
+                "size": "165 g",
+                "case": "12 cajitas",
+                "unitPrice": 3.16,
+                "casePrice": "37.90"
+            }
+        ]
+    },
+    {
+        "name": "Sopa a la Minuta / Minuta soup Mix",
+        "brand": "Provenzal",
+        "category": "deshidratados",
+        "description": "UPC: 7-752308-796811",
+        "image": "images/f67.png",
+        "variants": [
+            {
+                "size": "55 g",
+                "case": "10 sachets",
+                "unitPrice": 1.96,
+                "casePrice": "21.90"
+            }
+        ]
+    },
+    {
+        "name": "Sopa Fuchi Fu / Fuchi Fu soup Mix",
+        "brand": "Provenzal",
+        "category": "deshidratados",
+        "description": " ",
+        "image": "images/f68.png",
+        "variants": [
+            {
+                "size": "55 g",
+                "case": "11 sachets",
+                "unitPrice": 1.79,
+                "casePrice": "21.90"
+            }
+        ]
+    }
+]

@@ -32,18 +32,18 @@ export async function loadMenu(category = currentCategory) {
         optionsHtml = `
           <div class="options" style="display:flex;flex-direction:column;gap:8px;margin-top:12px;">
             ${item.variants
-              .map(v => {
-                const size = v.size || "";
-                const caseInfo = v.case || "";
-                const unitPrice = typeof v.unitPrice === "number"
-                  ? v.unitPrice.toFixed(2)
-                  : (v.unitPrice ?? v.price);
+            .map(v => {
+              const size = v.size || "";
+              const caseInfo = v.case || "";
+              const unitPrice = typeof v.unitPrice === "number"
+                ? v.unitPrice.toFixed(2)
+                : (v.unitPrice ?? v.price);
 
-                const casePrice = typeof v.casePrice === "number"
-                  ? v.casePrice.toFixed(2)
-                  : (v.casePrice || "");
+              const casePrice = typeof v.casePrice === "number"
+                ? v.casePrice.toFixed(2)
+                : (v.casePrice || "");
 
-                return `
+              return `
                   <div style="display:flex;flex-direction:column;gap:4px;padding:6px 10px;border-radius:10px;background:#111827;">
 
                     <div style="display:flex;align-items:center;justify-content:space-between;gap:10px;">
@@ -56,15 +56,15 @@ export async function loadMenu(category = currentCategory) {
                     </div>
 
                     ${(caseInfo || casePrice)
-                      ? `<div style="font-size:12px;color:#e5e7eb;opacity:.9;">
+                  ? `<div style="font-size:12px;color:#e5e7eb;opacity:.9;">
                           Case: ${caseInfo}${casePrice ? ` · $${casePrice}` : ""}
                         </div>`
-                      : ""}
+                  : ""}
 
                   </div>
                 `;
-              })
-              .join("")}
+            })
+            .join("")}
           </div>`;
       } else if (item.price) {
         const price = typeof item.price === "number" ? item.price.toFixed(2) : item.price;
@@ -80,15 +80,21 @@ export async function loadMenu(category = currentCategory) {
 
       const card = `
         <div class="col-sm-6 col-lg-4 all ${categoryClass} menu-item"
-             data-category="${categoryClass}"
-             data-brand="${brand}">
+            data-category="${categoryClass}"
+            data-brand="${brand}">
           <div class="box">
             <div class="img-box">
               <img src="${item.image}" alt="${item.name}">
             </div>
+
             <div class="detail-box">
+              <span class="brand-pill" data-brand="${item.brand}">
+                ${item.brand}
+              </span>
+
               <h5>${item.name}</h5>
               <p>${item.description || ""}</p>
+
               ${optionsHtml}
             </div>
           </div>
