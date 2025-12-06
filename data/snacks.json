@@ -1,0 +1,108 @@
+[
+   {
+  "name": "Barra MILKY Chocolate / Display",
+  "brand": "La Iberica",
+  "category": "snacks",
+  "description": "UPC: ",
+  "image": "images/f102.png",
+  "variants": [
+    {
+      "size": "10x1.5 oz",
+      "case": "5/10x1.5oz",
+      "unitPrice": 8.98,
+      "casePrice": "44.90"
+    }
+  ]
+},
+{
+  "name": "Barra MILKY Chocolate Sin Azucar",
+  "brand": "La Iberica",
+  "category": "snacks",
+  "description": "UPC: ",
+  "image": "images/f103.png",
+  "variants": [
+    {
+      "size": "6x1.8oz",
+      "case": "5pack/6uni",
+      "unitPrice": 7.98,
+      "casePrice": "39.90"
+    }
+  ]
+},
+{
+  "name": "MINI / MILKY REGULAR Chocolate",
+  "brand": "La Iberica",
+  "category": "snacks",
+  "description": "UPC: ",
+  "image": "images/f104.png",
+  "variants": [
+    {
+      "size": "10 x 20 gr",
+      "case": "5pack x 10",
+      "unitPrice": 4.18,
+      "casePrice": "20.90"
+    }
+  ]
+},
+{
+  "name": "MINI / Sin Azucar MILKY Chocolate",
+  "brand": "La Iberica",
+  "category": "snacks",
+  "description": "UPC: ",
+  "image": "images/f105.png",
+  "variants": [
+    {
+      "size": "10 x 20 gr",
+      "case": "5pack x 10",
+      "unitPrice": 6.10,
+      "casePrice": "30.50"
+    }
+  ]
+},
+{
+  "name": "Pastillas de Chocolate con Leche",
+  "brand": "La Iberica",
+  "category": "snacks",
+  "description": "UPC: 7-750060-000078",
+  "image": "images/f106.png",
+  "variants": [
+    {
+      "size": "5.3 oz",
+      "case": "5",
+      "unitPrice": 3.52,
+      "casePrice": "17.60"
+    }
+  ]
+},
+{
+  "name": "Pastillas de Chocolate 70% Cacao",
+  "brand": "La Iberica",
+  "category": "snacks",
+  "description": "UPC: ",
+  "image": "images/f107.png",
+  "variants": [
+    {
+      "size": "5.3 oz",
+      "case": "5",
+      "unitPrice": 4.12,
+      "casePrice": "20.60"
+    }
+  ]
+},
+{
+  "name": "Toffees Surtidos",
+  "brand": "La Iberica",
+  "category": "snacks",
+  "description": "UPC: 7-750060-386752",
+  "image": "images/f108.png",
+  "variants": [
+    {
+      "size": "5.3 oz",
+      "case": "5",
+      "unitPrice": 2.30,
+      "casePrice": "11.50"
+    }
+  ]
+}
+ 
+]
