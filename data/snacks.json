@@ -103,6 +103,52 @@
       "casePrice": "11.50"
     }
   ]
+},
+{
+  "name": "King Kong Rojo Manjarblanco",
+  "brand": "San Roque",
+  "category": "snacks",
+  "description": "UPC: 7-750126-000691",
+  "image": "images/f109.png",
+  "variants": [
+    {
+      "size": "450 gr",
+      "case": "12",
+      "unitPrice": 7.33,
+      "casePrice": "87.90"
+    }
+  ]
+},
+{
+  "name": "King Kong Naranja Piña Maní Manjar",
+  "brand": "San Roque",
+  "category": "snacks",
+  "description": "UPC: 7-750126-000745",
+  "image": "images/f110.png",
+  "variants": [
+    {
+      "size": "450 gr",
+      "case": "12",
+      "unitPrice": 7.33,
+      "casePrice": "87.90"
+    }
+  ]
+},
+{
+  "name": "King Kong Azul Piña y Maní",
+  "brand": "San Roque",
+  "category": "snacks",
+  "description": "UPC: 7-750126-000790",
+  "image": "images/f111.png",
+  "variants": [
+    {
+      "size": "450 gr",
+      "case": "12",
+      "unitPrice": 7.33,
+      "casePrice": "87.90"
+    }
+  ]
 }
+
  
 ]
