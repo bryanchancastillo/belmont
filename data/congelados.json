@@ -50,6 +50,21 @@
       }
     ]
   },
+    {
+    "name": "Rocoto Entero",
+    "brand": "Belmont",
+    "description": "UPC: 8-59174-00317-7",
+    "image": "images/f13.png",
+    "category": "congelados",
+    "variants": [
+      {
+        "size": "1 lb.",
+        "case": "18 bags",
+        "unitPrice": 2.83,
+        "casePrice": 51.00
+      }
+    ]
+  },
   {
     "name": "Caigua Entera",
     "brand": "Belmont",
