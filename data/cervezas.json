@@ -1,0 +1,153 @@
+[
+{
+  "name": "CERVEZA CUZQUEÑA / PERU BEER",
+  "brand": "Cuzqueña",
+  "category": "cervezas",
+  "description": "UPC: ",
+  "image": "images/f117.png",
+  "variants": [
+    {
+      "size": "2 / 12 packs",
+      "case": "24 BOTELLA",
+      "unitPrice": 2.04,
+      "casePrice": "48.98"
+    }
+  ]
+},
+{
+  "name": "CERVEZA CRISTAL / PERU BEER",
+  "brand": "Cristal",
+  "category": "cervezas",
+  "description": "UPC: ",
+  "image": "images/f118.png",
+  "variants": [
+    {
+      "size": "2 / 12 packs",
+      "case": "24 BOTELLA",
+      "unitPrice": 2.04,
+      "casePrice": "48.98"
+    }
+  ]
+},
+{
+  "name": "CERVEZA PILSEN Callao / BEER PILSEN / PERU",
+  "brand": "Pilsen",
+  "category": "cervezas",
+  "description": "UPC: ",
+  "image": "images/f119.png",
+  "variants": [
+    {
+      "size": "4 / SIX PACKS",
+      "case": "24 BOTELLA",
+      "unitPrice": 1.58,
+      "casePrice": "37.98"
+    }
+  ]
+},
+{
+  "name": "CERVEZA CORONA / CORONA BEER MEXICO",
+  "brand": "Corona",
+  "category": "cervezas",
+  "description": "UPC: ",
+  "image": "images/f120.png",
+  "variants": [
+    {
+      "size": "24",
+      "case": "24 BOTELLA",
+      "unitPrice": 1.62,
+      "casePrice": "38.90"
+    }
+  ]
+},
+{
+  "name": "CERVEZA PATRICIA / BEER FROM URUGUAY",
+  "brand": "Patricia",
+  "category": "cervezas",
+  "description": "UPC: ",
+  "image": "images/f121.png",
+  "variants": [
+    {
+      "size": "1 lt",
+      "case": "12 Botellas",
+      "unitPrice": 4.91,
+      "casePrice": "59.00"
+    }
+  ]
+},
+{
+  "name": "CERVEZA PILSEN URUGUAY / BEER FROM URUGUAY",
+  "brand": "Pilsen Uruguay",
+  "category": "cervezas",
+  "description": "UPC: ",
+  "image": "images/f122.png",
+  "variants": [
+    {
+      "size": "24 / 12 oz",
+      "case": "24 BOTELLA",
+      "unitPrice": 2.70,
+      "casePrice": "65.00"
+    }
+  ]
+},
+{
+  "name": "HUARACINA / Sierra Andina / PERU CRAFT BEER",
+  "brand": "Sierra Andina",
+  "category": "cervezas",
+  "description": "UPC: ",
+  "image": "images/f123.png",
+  "variants": [
+    {
+      "size": "24 / 12 oz",
+      "case": "24 BOTELLA",
+      "unitPrice": 2.70,
+      "casePrice": "65.00"
+    }
+  ]
+},
+{
+  "name": "SHAMAN / Sierra Andina / PERU CRAFT BEER",
+  "brand": "Sierra Andina",
+  "category": "cervezas",
+  "description": "UPC: ",
+  "image": "images/f123.png",
+  "variants": [
+    {
+      "size": "24 / 12 oz",
+      "case": "24 BOTELLA",
+      "unitPrice": 2.70,
+      "casePrice": "65.00"
+    }
+  ]
+},
+{
+  "name": "PACHACUTEC / Sierra Andina / PERU CRAFT BEER",
+  "brand": "Sierra Andina",
+  "category": "cervezas",
+  "description": "UPC: ",
+  "image": "images/f123.png",
+  "variants": [
+    {
+      "size": "24 / 12 oz",
+      "case": "24 BOTELLA",
+      "unitPrice": 2.70,
+      "casePrice": "65.00"
+    }
+  ]
+},
+{
+  "name": "CHACANA QUINOA / Sierra Andina / Craft Beer",
+  "brand": "Sierra Andina",
+  "category": "cervezas",
+  "description": "UPC: ",
+  "image": "images/f123.png",
+  "variants": [
+    {
+      "size": "24 / 12 oz",
+      "case": "24 BOTELLA",
+      "unitPrice": 2.70,
+      "casePrice": "65.00"
+    }
+  ]
+}
+
+]
