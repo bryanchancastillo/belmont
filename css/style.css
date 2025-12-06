@@ -615,6 +615,73 @@ a:focus {
   background-color: #e69c00;
 }
 
+/* Desktop más pegado y compacto */
+@media (min-width: 769px) {
+  .filters_menu_wrapper {
+    margin: 20px 0 10px 0 !important; /* antes era 45px */
+    padding: 0 !important;
+  }
+
+  .food_section .filters_menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px 12px;                 /* antes era mucho más grande */
+    margin: 0;                     /* quitamos el margen extra */
+  }
+
+  .food_section .filters_menu li {
+    padding: 5px 14px;             /* más compacto */
+    font-size: 15px;               /* un poco más pequeño si quieres */
+  }
+}
+
+
+/* Scroll horizontal profesional en móvil */
+@media (max-width: 768px) {
+  .filters_menu_wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 0 16px;
+    margin: 16px 0 8px;
+    /* ocultar scrollbar en iOS y otros */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .filters_menu_wrapper::-webkit-scrollbar {
+    display: none;
+  }
+
+  .food_section .filters_menu {
+    display: flex;
+    flex-wrap: nowrap;          /* una sola fila */
+    justify-content: flex-start;
+    gap: 8px;
+    margin: 0;                  /* ya controlamos con el wrapper */
+  }
+
+  .food_section .filters_menu li {
+    white-space: nowrap;        /* que no se corten las palabras */
+    padding: 6px 16px;
+    font-size: 14px;
+  }
+}
+
+/* En desktop sigue siendo grid centrado */
+@media (min-width: 769px) {
+  .filters_menu_wrapper {
+    overflow: visible;
+    padding: 0;
+    margin: 45px 0 20px;
+  }
+
+  .food_section .filters_menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px 18px;
+  }
+}
+
 .about_section {
   background: #222831;
   color: #ffffff;
