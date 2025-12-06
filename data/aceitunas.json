@@ -1,0 +1,17 @@
+[
+{
+  "name": "Aceituna Botija",
+      "brand": "Belmont",
+  "description": "UPC: 8-59174-00386-3",
+  "image": "images/f19.png",
+  "category": "aceitunas",
+  "variants": [
+    {
+        "size": "330 gr.",
+        "case": "12",
+        "unitPrice": 3.25,
+        "casePrice": 39.00
+      }
+]
+}
+]

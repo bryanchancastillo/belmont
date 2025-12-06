@@ -14,13 +14,17 @@ import {
 } from './state.js';
 
 window.addEventListener("DOMContentLoaded", async () => {
-  await loadMenu();            // carga el JSON y crea las cards
-  setupCategoryFilters();      // listeners para botones de categoría
-  setupBrandChips();           // listeners para las marcas
-
-  // estado inicial por defecto
+  // estado inicial
   setCurrentCategory('congelados');
   setCurrentBrand('all');
 
-  applyFilters();              // aplica filtros iniciales
+  // cargar categoría inicial
+  await loadMenu('congelados');
+
+  // configurar listeners
+  setupCategoryFilters();
+  setupBrandChips();
+
+  // aplicar filtros iniciales
+  applyFilters();
 });

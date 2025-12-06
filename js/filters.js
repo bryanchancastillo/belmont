@@ -1,5 +1,6 @@
 // js/filters.js
 
+import { loadMenu } from './menu.js';
 import {
   getCurrentCategory,
   getCurrentBrand,
@@ -8,65 +9,73 @@ import {
 } from './state.js';
 
 export function applyFilters() {
-  
-  const cards = document.querySelectorAll('#menuGrid .menu-item');
-  let visibleCount = 0;
-
   const currentCategory = getCurrentCategory();
   const currentBrand = getCurrentBrand();
 
-  cards.forEach(card => {
-    const matchCategory =
-      currentCategory === 'all' || card.dataset.category === currentCategory;
-    const matchBrand =
-      currentBrand === 'all' || card.dataset.brand === currentBrand;
+  const items = document.querySelectorAll('#menuGrid .menu-item');
+  if (!items.length) return;
 
-    if (matchCategory && matchBrand) {
-      visibleCount++;
-      card.style.display = "block";
-      card.classList.remove("show");
-      // pequeña "reflow hack" para reiniciar animación
-      void card.offsetWidth;
-      card.classList.add("show");
-    } else {
-      card.style.display = "none";
-      card.classList.remove("show");
+  let visibleCount = 0;
+
+  items.forEach(card => {
+    const cardCategory = card.getAttribute('data-category') || '';
+    const cardBrand = card.getAttribute('data-brand') || '';
+
+    let visible = true;
+
+    if (currentCategory && currentCategory !== 'all' && cardCategory !== currentCategory) {
+      visible = false;
     }
+
+    if (currentBrand && currentBrand !== 'all' && cardBrand !== currentBrand) {
+      visible = false;
+    }
+
+    card.style.display = visible ? '' : 'none';
+    if (visible) visibleCount++;
   });
 
-  const noResults = document.getElementById("noResultsMessage");
+  const noResults = document.getElementById('noResultsMessage');
   if (noResults) {
-    noResults.style.display = visibleCount === 0 ? "block" : "none";
+    noResults.style.display = visibleCount === 0 ? 'block' : 'none';
   }
 }
 
 export function setupCategoryFilters() {
-  const buttons = document.querySelectorAll('.filters_menu li');
+  const filtersMenu = document.querySelector('.filters_menu');
+  if (!filtersMenu) return;
 
-  buttons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      buttons.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
+  const lis = filtersMenu.querySelectorAll('li');
 
-      const filter = btn.getAttribute('data-filter') || 'all';
+  lis.forEach(li => {
+    li.addEventListener('click', async () => {
+      lis.forEach(f => f.classList.remove('active'));
+      li.classList.add('active');
 
-      // data-filter viene con un "." (ej ".congelados"), lo removemos
-      setCurrentCategory(filter.replace('.', ''));
+      const filter = li.getAttribute('data-filter') || '';
+      const category = filter.replace('.', '') || 'all';
+
+      setCurrentCategory(category);
+
+      await loadMenu(category);
+
       applyFilters();
     });
   });
 }
 
 export function setupBrandChips() {
-  const chips = document.querySelectorAll(".chip");
+  const chips = document.querySelectorAll('.chip'); // 👈 aquí
+  if (!chips.length) return;
 
   chips.forEach(chip => {
-    chip.addEventListener("click", () => {
-      chips.forEach(c => c.classList.remove("active"));
-      chip.classList.add("active");
+    chip.addEventListener('click', () => {
+      chips.forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
 
-      const brand = chip.dataset.brand || "all";
-      setCurrentBrand(brand === "all" ? "all" : brand);
+      const brand = chip.getAttribute('data-brand') || 'all';
+      setCurrentBrand(brand);
+
       applyFilters();
     });
   });
