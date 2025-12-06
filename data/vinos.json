@@ -1,0 +1,62 @@
+[
+    {
+        "name": "TABERNERO CABERNET SAUV. RED / Wine",
+        "brand": "Tabernero",
+        "category": "vinos",
+        "description": "UPC: ",
+        "image": "images/f98.png",
+        "variants": [
+            {
+                "size": "750 ml",
+                "case": "12",
+                "unitPrice": 12.00,
+                "casePrice": "133.95"
+            }
+        ]
+    },
+    {
+        "name": "TABERNERO BORGONA / Wine",
+        "brand": "Tabernero",
+        "category": "vinos",
+        "description": "UPC: ",
+        "image": "images/f99.png",
+        "variants": [
+            {
+                "size": "750 ml",
+                "case": "12",
+                "unitPrice": 10.33,
+                "casePrice": "123.95"
+            }
+        ]
+    },
+    {
+        "name": "TABERNERO ROSE / Wine",
+        "brand": "Tabernero",
+        "category": "vinos",
+        "description": "UPC: ",
+        "image": "images/f100.png",
+        "variants": [
+            {
+                "size": "750 ml",
+                "case": "12",
+                "unitPrice": 10.33,
+                "casePrice": "123.95"
+            }
+        ]
+    },
+    {
+        "name": "TABERNERO GRAN TINTO / Wine",
+        "brand": "Tabernero",
+        "category": "vinos",
+        "description": "UPC: ",
+        "image": "images/f101.png",
+        "variants": [
+            {
+                "size": "750 ml",
+                "case": "12",
+                "unitPrice": 10.33,
+                "casePrice": "123.95"
+            }
+        ]
+    }
+]
