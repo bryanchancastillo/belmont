@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Green BBQ Carbon Vegetal / Hardwood Charc.",
+        "brand": "Green BBQ",
+        "category": "otros",
+        "description": "UPC: ",
+        "image": "images/f130.png",
+        "variants": [
+            {
+                "size": "10 lb",
+                "case": "bags",
+                "casePrice": "0",
+                "unitPrice": 0
+            }
+        ]
+    },
+    {
+        "name": "Green BBQ Carbon Vegetal / Hardwood Charc.",
+        "brand": "Green BBQ",
+        "category": "otros",
+        "description": "UPC: ",
+        "image": "images/f130.png",
+        "variants": [
+            {
+                "size": "20 lb",
+                "case": "bags",
+                "casePrice": "0",
+                "unitPrice": 0
+            }
+        ]
+    }
+]
