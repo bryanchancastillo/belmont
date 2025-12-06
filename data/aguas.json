@@ -1,0 +1,41 @@
+[
+    {
+        "name": "SOCOSANI / Mineral Water Still / SIN GAS",
+        "brand": "Socosani",
+        "category": "aguas",
+        "description": "UPC: ",
+        "image": "images/f124.png",
+        "variants": [
+            {
+                "size": "355 ml",
+                "case": "24"
+            }
+        ]
+    },
+    {
+        "name": "SOCOSANI / Mineral Water Sparkling / GLASS",
+        "brand": "Socosani",
+        "category": "aguas",
+        "description": "UPC: ",
+        "image": "images/f125.png",
+        "variants": [
+            {
+                "size": "750 ml",
+                "case": "12"
+            }
+        ]
+    },
+    {
+        "name": "SOCOSANI / Mineral Water Sparkling / GLASS",
+        "brand": "Socosani",
+        "category": "aguas",
+        "description": "UPC: ",
+        "image": "images/f125.png",
+        "variants": [
+            {
+                "size": "355 ml",
+                "case": "24"
+            }
+        ]
+    }
+]
