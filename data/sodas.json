@@ -1,0 +1,92 @@
+[
+    {
+        "name": "INCA KOLA / lata / Soda",
+        "brand": "Inca Kola",
+        "category": "sodas",
+        "description": "UPC: 0-499860-6",
+        "image": "images/f75.png",
+        "variants": [
+            {
+                "size": "12 oz",
+                "case": "24",
+                "unitPrice": 0.75,
+                "casePrice": "17.90"
+            }
+        ]
+    },
+    {
+        "name": "INCA KOLA DIET / lata / Soda",
+        "brand": "Inca Kola",
+        "category": "sodas",
+        "description": "UPC: 0-499880-0",
+        "image": "images/f76.png",
+        "variants": [
+            {
+                "size": "12 oz",
+                "case": "24",
+                "unitPrice": 0.75,
+                "casePrice": "17.90"
+            }
+        ]
+    },
+    {
+        "name": "INCA KOLA REGULAR botella de plástico",
+        "brand": "Inca Kola",
+        "category": "sodas",
+        "description": "UPC: 0-49000-02728-0",
+        "image": "images/f77.png",
+        "variants": [
+            {
+                "size": "2 lt",
+                "case": "8",
+                "unitPrice": 2.74,
+                "casePrice": "21.90"
+            }
+        ]
+    },
+    {
+        "name": "INKA KOLA PERU / Glass - vidrio",
+        "brand": "Inca Kola",
+        "category": "sodas",
+        "description": "UPC: ",
+        "image": "images/f78.png",
+        "variants": [
+            {
+                "size": "300 ml",
+                "case": "24",
+                "unitPrice": 1.64,
+                "casePrice": "39.50"
+            }
+        ]
+    },
+    {
+        "name": "KOLA INGLESA - botella vidrio",
+        "brand": "Kola Inglesa",
+        "category": "sodas",
+        "description": "UPC: ",
+        "image": "images/f79.png",
+        "variants": [
+            {
+                "size": "12 oz.",
+                "case": "24",
+                "unitPrice": 1.14,
+                "casePrice": "27.50"
+            }
+        ]
+    },
+    {
+        "name": "KOLA INGLESA - botella plastico",
+        "brand": "Kola Inglesa",
+        "category": "sodas",
+        "description": "UPC: ",
+        "image": "images/f80.png",
+        "variants": [
+            {
+                "size": "2 lt",
+                "case": "6",
+                "unitPrice": 2.98,
+                "casePrice": "17.90"
+            }
+        ]
+    }
+]
