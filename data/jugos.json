@@ -208,5 +208,35 @@
         "casePrice": "15.90"
       }
     ]
+  },
+  {
+    "name": "CONCENTRADO Chicha Morada / Purple Corn",
+    "brand": "Belmont",
+    "category": "jugos",
+    "description": "UPC: 8-59174-00388-7",
+    "image": "images/f131.png",
+    "variants": [
+      {
+        "size": "64 oz",
+        "case": "6",
+        "unitPrice": 6.98,
+        "casePrice": "41.90"
+      }
+    ]
+  },
+  {
+    "name": "CONCENTRADO MARACUYA / Passion Fruit ",
+    "brand": "Belmont",
+    "category": "jugos",
+    "description": "UPC: 859174-00390-0",
+    "image": "images/f132.png",
+    "variants": [
+      {
+        "size": "64 oz",
+        "case": "6",
+        "unitPrice": 6.98,
+        "casePrice": "41.90"
+      }
+    ]
   }
 ]
