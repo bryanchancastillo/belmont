@@ -118,5 +118,95 @@
         "casePrice": 12.00
       }
     ]
+  },
+  {
+    "name": "Nectar Piña / Pineapple Drink",
+    "brand": "Gloria",
+    "category": "jugos",
+    "description": "UPC: 7-751271-016186",
+    "image": "images/f69.png",
+    "variants": [
+      {
+        "size": "1lt. Tetra pak",
+        "case": "12",
+        "unitPrice": 1.24,
+        "casePrice": "14.90"
+      }
+    ]
+  },
+  {
+    "name": "Nectar Maracuya / Passion Fruit Drink",
+    "brand": "Gloria",
+    "category": "jugos",
+    "description": "UPC: 7-751271-016209",
+    "image": "images/f70.png",
+    "variants": [
+      {
+        "size": "1lt. Tetra pak",
+        "case": "12",
+        "unitPrice": 1.24,
+        "casePrice": "14.90"
+      }
+    ]
+  },
+  {
+    "name": "Nectar Mango / Mango Drink",
+    "brand": "Gloria",
+    "category": "jugos",
+    "description": "UPC: 7-751271-016216",
+    "image": "images/f71.png",
+    "variants": [
+      {
+        "size": "1lt. Tetra pak",
+        "case": "12",
+        "unitPrice": 1.24,
+        "casePrice": "14.90"
+      }
+    ]
+  },
+  {
+    "name": "Nectar Durazno / Peach Drink",
+    "brand": "Gloria",
+    "category": "jugos",
+    "description": "UPC: 7-751271-016155",
+    "image": "images/f72.png",
+    "variants": [
+      {
+        "size": "1lt. Tetra pak",
+        "case": "12",
+        "unitPrice": 1.24,
+        "casePrice": "14.90"
+      }
+    ]
+  },
+  {
+    "name": "Nectar Guayaba / Guava Drink",
+    "brand": "Gloria",
+    "category": "jugos",
+    "description": "UPC: 7-751271-024471",
+    "image": "images/f73.png",
+    "variants": [
+      {
+        "size": "1lt. Tetra pak",
+        "case": "12",
+        "unitPrice": 1.24,
+        "casePrice": "14.90"
+      }
+    ]
+  },
+  {
+    "name": "Chicha Morada / Purple Corn drink",
+    "brand": "Gloria",
+    "category": "jugos",
+    "description": "UPC: 7-751271-009362",
+    "image": "images/f74.png",
+    "variants": [
+      {
+        "size": "1lt. Tetra pak",
+        "case": "12",
+        "unitPrice": 1.33,
+        "casePrice": "15.90"
+      }
+    ]
   }
 ]
