@@ -1,0 +1,107 @@
+[
+    {
+        "name": "Aji no moto en bolsa / Monosodio Glutaname",
+        "brand": "Umami",
+        "category": "condimentos",
+        "description": "UPC: 7-754487-116374",
+        "image": "images/f85.png",
+        "variants": [
+            {
+                "size": "250 gr",
+                "case": "60",
+                "unitPrice": 1.65,
+                "casePrice": "99.00"
+            }
+        ]
+    },
+    {
+        "name": "Aji no moto en bolsa / Monosodio Glutaname",
+        "brand": "Umami",
+        "category": "condimentos",
+        "description": "UPC: ",
+        "image": "images/f85.png",
+        "variants": [
+            {
+                "size": "1 kg",
+                "case": "18",
+                "unitPrice": 6.66,
+                "casePrice": "119.90"
+            }
+        ]
+    },
+    {
+        "name": "Aji no Sillau / Soy Sauce",
+        "brand": "Umami",
+        "category": "condimentos",
+        "description": "UPC: 7-754487-121415",
+        "image": "images/f86.png",
+        "variants": [
+            {
+                "size": "500 ml",
+                "case": "24",
+                "unitPrice": 2.29,
+                "casePrice": "55.00"
+            }
+        ]
+    },
+    {
+        "name": "Siyau KIKKO / Soy Sauce",
+        "brand": "Umami",
+        "category": "condimentos",
+        "description": "UPC: 8-59174-00392-4",
+        "image": "images/f87.png",
+        "variants": [
+            {
+                "size": "500 ml",
+                "case": "30",
+                "unitPrice": 1.33,
+                "casePrice": "39.90"
+            }
+        ]
+    },
+    {
+        "name": "Siyau KIKKO / Soy Sauce",
+        "brand": "Umami",
+        "category": "condimentos",
+        "description": "UPC: ",
+        "image": "images/f87.png",
+        "variants": [
+            {
+                "size": "5 lt",
+                "case": "4",
+                "unitPrice": 12.47,
+                "casePrice": "49.90"
+            }
+        ]
+    },
+    {
+        "name": "Siyau KIKKó MINI / Soy Sauce",
+        "brand": "Umami",
+        "category": "condimentos",
+        "description": "UPC: ",
+        "image": "images/f87.png",
+        "variants": [
+            {
+                "size": "160 ml",
+                "case": "16 / 6 pack",
+                "unitPrice": 0.51,
+                "casePrice": "0"
+            }
+        ]
+    },
+    {
+        "name": "CHICHA DE JORA / Jora Seasoning",
+        "brand": "Umami",
+        "category": "condimentos",
+        "description": "UPC: 8-59174-00385-6",
+        "image": "images/f88.png",
+        "variants": [
+            {
+                "size": "1 lt.",
+                "case": "12",
+                "unitPrice": 2.99,
+                "casePrice": "35.90"
+            }
+        ]
+    }
+]

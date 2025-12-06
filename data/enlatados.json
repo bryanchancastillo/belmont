@@ -1,0 +1,17 @@
+[
+    {
+        "name": "ATUN Filetes Peruano in Oil",
+        "brand": "Belmont",
+        "category": "enlatados",
+        "description": "UPC: 8-59174-00391-7",
+        "image": "images/f84.png",
+        "variants": [
+            {
+                "size": "6 oz",
+                "case": "24",
+                "unitPrice": 1.62,
+                "casePrice": "38.90"
+            }
+        ]
+    }
+]
