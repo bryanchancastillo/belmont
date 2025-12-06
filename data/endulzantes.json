@@ -1,0 +1,32 @@
+[
+    {
+        "name": "ALGARROBINA / Carob Syrup NEW !!!",
+        "brand": "Belmont",
+        "category": "endulzantes",
+        "description": "UPC: 8-5917400360-3",
+        "image": "images/f56.png",
+        "variants": [
+            {
+                "size": "28 oz",
+                "case": "12",
+                "unitPrice": 7.91,
+                "casePrice": "95.00"
+            }
+        ]
+    },
+    {
+        "name": "CHANCACA MIEL / Cane Syrup NEW !!!",
+        "brand": "Belmont",
+        "category": "endulzantes",
+        "description": "UPC: 8-5917400364-1",
+        "image": "images/f57.png",
+        "variants": [
+            {
+                "size": "28 oz",
+                "case": "12",
+                "unitPrice": 6.25,
+                "casePrice": "75.00"
+            }
+        ]
+    }
+]
