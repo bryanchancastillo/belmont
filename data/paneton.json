@@ -1,0 +1,47 @@
+[
+    {
+  "name": "Paneton Bolsa",
+  "brand": "Belmont",
+  "category": "paneton",
+  "description": "UPC: 8-59174-00398-6",
+  "image": "images/f114.png",
+  "variants": [
+    {
+      "size": "900 gr.",
+      "case": "6",
+      "unitPrice": 0,
+      "casePrice": "0"
+    }
+  ]
+},
+{
+  "name": "Paneton Caja",
+  "brand": "Belmont",
+  "category": "paneton",
+  "description": "",
+  "image": "images/f115.png",
+  "variants": [
+    {
+      "size": "900 gr.",
+      "case": "6",
+      "unitPrice": 0,
+      "casePrice": "0"
+    }
+  ]
+},
+{
+  "name": "Paneton Caja",
+  "brand": "Gloria",
+  "category": "paneton",
+  "description": "UPC: 7-751271-014427",
+  "image": "images/f116.png",
+  "variants": [
+    {
+      "size": "750 gr.",
+      "case": "6",
+      "unitPrice": 0,
+      "casePrice": "0"
+    }
+  ]
+}
+]
