@@ -1,0 +1,62 @@
+[
+    {
+        "name": "MARACUYA Sour Mix / WASKA",
+        "brand": "Waska",
+        "category": "piscos",
+        "description": "UPC: 7-754419-000030",
+        "image": "images/f126.png",
+        "variants": [
+            {
+                "size": "9 x 4.4 oz",
+                "case": "9 x 4.4 oz",
+                "unitPrice": 2.38,
+                "casePrice": "21.50"
+            }
+        ]
+    },
+    {
+        "name": "LIMON Sour Mix / WASKA",
+        "brand": "Waska",
+        "category": "piscos",
+        "description": "UPC: ",
+        "image": "images/f127.png",
+        "variants": [
+            {
+                "size": "9 x 4.4 oz",
+                "case": "9 x 4.4 oz",
+                "unitPrice": 2.38,
+                "casePrice": "21.50"
+            }
+        ]
+    },
+    {
+        "name": "Mango / Camu Camu / WASKA",
+        "brand": "Waska",
+        "category": "piscos",
+        "description": "UPC: ",
+        "image": "images/f128.png",
+        "variants": [
+            {
+                "size": "9 x 4.4 oz",
+                "case": "9 x 4.4 oz",
+                "unitPrice": 2.38,
+                "casePrice": "21.50"
+            }
+        ]
+    },
+    {
+        "name": "Chicha Morada / WASKA",
+        "brand": "Waska",
+        "category": "piscos",
+        "description": "UPC: ",
+        "image": "images/f129.png",
+        "variants": [
+            {
+                "size": "9 x 4.4 oz",
+                "case": "9 x 4.4 oz",
+                "unitPrice": 2.38,
+                "casePrice": "21.50"
+            }
+        ]
+    }
+]
