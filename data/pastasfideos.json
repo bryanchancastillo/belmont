@@ -1,0 +1,32 @@
+[
+    {
+        "name": "FIDEO CHINO Seco",
+        "brand": "Triunfo",
+        "category": "pastasfideos",
+        "description": "UPC: ",
+        "image": "images/f89.png",
+        "variants": [
+            {
+                "size": "8.8 oz",
+                "case": "30",
+                "unitPrice": 1.13,
+                "casePrice": "34.00"
+            }
+        ]
+    },
+    {
+        "name": "FIDEO CHINO Seco",
+        "brand": "Choung Lee",
+        "category": "pastasfideos",
+        "description": "UPC: ",
+        "image": "images/f90.png",
+        "variants": [
+            {
+                "size": "8.8 oz",
+                "case": "30",
+                "unitPrice": 1.13,
+                "casePrice": "34.00"
+            }
+        ]
+    }
+]
