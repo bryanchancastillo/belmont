@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Chocolate Cuzco / REGULAR",
+        "brand": "Belmont",
+        "category": "infusiones",
+        "description": "UPC: ",
+        "image": "images/f96.png",
+        "variants": [
+            {
+                "size": "50 gr",
+                "case": "4/12 uni.",
+                "unitPrice": 0.62,
+                "casePrice": "34.00"
+            }
+        ]
+    },
+    {
+        "name": "Chocolate Cuzco / CLAVO & CANELA",
+        "brand": "Belmont",
+        "category": "infusiones",
+        "description": "UPC: ",
+        "image": "images/f97.png",
+        "variants": [
+            {
+                "size": "50 gr",
+                "case": "4/12 uni.",
+                "unitPrice": 0.62,
+                "casePrice": "34.00"
+            }
+        ]
+    }
+]
