@@ -253,5 +253,50 @@
         "casePrice": "33.00"
       }
     ]
-  }
+  },
+  {
+  "name": "LINAZA Entera / Flax seed",
+  "brand": "Belmont",
+  "category": "granosharinas",
+  "description": "UPC: 8-5917400346-7",
+  "image": "images/f91.png",
+  "variants": [
+    {
+      "size": "15 oz",
+      "case": "16",
+      "unitPrice": 2.34,
+      "casePrice": "37.50"
+    }
+  ]
+},
+{
+  "name": "LINAZA Molida / Ground Flax seed",
+  "brand": "Belmont",
+  "category": "granosharinas",
+  "description": "UPC: 8-5917400347-4",
+  "image": "images/f92.png",
+  "variants": [
+    {
+      "size": "14 oz",
+      "case": "12",
+      "unitPrice": 2.57,
+      "casePrice": "30.90"
+    }
+  ]
+},
+{
+  "name": "Cebada Tostada / Toasted Barley",
+  "brand": "Belmont",
+  "category": "granosharinas",
+  "description": "UPC: 8-59174-00339-9",
+  "image": "images/f93.png",
+  "variants": [
+    {
+      "size": "12.5 oz",
+      "case": "12",
+      "unitPrice": 1.41,
+      "casePrice": "17.00"
+    }
+  ]
+}
 ]

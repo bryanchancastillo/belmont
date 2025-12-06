@@ -1,5 +1,35 @@
 [
     {
+        "name": "Aji Panca Seco Limpio / Dried Panca Pepper",
+        "brand": "Belmont",
+        "category": "deshidratados",
+        "description": "UPC: 8-59174-00338-2",
+        "image": "images/f94.png",
+        "variants": [
+            {
+                "size": "1.6 oz",
+                "case": "16",
+                "unitPrice": 1.19,
+                "casePrice": "19.00"
+            }
+        ]
+    },
+    {
+        "name": "Aji Mirasol Seco Limpio / Dried Mirasol Pepper",
+        "brand": "Belmont",
+        "category": "deshidratados",
+        "description": "UPC: 8-59174-00337-5",
+        "image": "images/f95.png",
+        "variants": [
+            {
+                "size": "1.6 oz",
+                "case": "16",
+                "unitPrice": 1.06,
+                "casePrice": "17.00"
+            }
+        ]
+    },
+    {
         "name": "Aji de Gallina / Aji de Gallina Mix",
         "brand": "Provenzal",
         "category": "deshidratados",
