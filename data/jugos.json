@@ -1,122 +1,122 @@
 [
- {
-  "name": "Chicha Morada",
-  "brand": "Belmont",
-  "description": "UPC: 8-59174-00311-5",
-  "image": "images/f14.png",
-  "category": "jugos",
-  "variants": [
+  {
+    "name": "Chicha Morada",
+    "brand": "Belmont",
+    "description": "UPC: 8-59174-00311-5",
+    "image": "images/f14.png",
+    "category": "jugos",
+    "variants": [
       {
         "size": "16 oz.",
         "case": "12",
         "unitPrice": 1.04,
         "casePrice": 12.50
       }
-]
-},
-{
-  "name": "Chicha Morada",
-      "brand": "Belmont",
-  "description": "UPC: 8-59174-00308-5",
-  "image": "images/f14.png",
-  "category": "jugos",
-  "variants": [
+    ]
+  },
+  {
+    "name": "Chicha Morada",
+    "brand": "Belmont",
+    "description": "UPC: 8-59174-00308-5",
+    "image": "images/f14.png",
+    "category": "jugos",
+    "variants": [
       {
         "size": "1 litro",
         "case": "6",
         "unitPrice": 2.00,
         "casePrice": 12.00
       }
-]
-},
-{
-  "name": "Maracuya Nectar",
-      "brand": "Belmont",
-  "description": "UPC: 8-59174-00313-9",
-  "image": "images/f15.png",
-  "category": "jugos",
-  "variants": [
+    ]
+  },
+  {
+    "name": "Maracuya Nectar",
+    "brand": "Belmont",
+    "description": "UPC: 8-59174-00313-9",
+    "image": "images/f15.png",
+    "category": "jugos",
+    "variants": [
       {
         "size": "16 oz.",
         "case": "12",
         "unitPrice": 1.04,
         "casePrice": 12.50
       }
-]
-},
-{
-  "name": "Maracuya Nectar",
-      "brand": "Belmont",
-  "description": "UPC: 8-59174-00310-8",
-  "image": "images/f15.png",
-  "category": "jugos",
-  "variants": [
+    ]
+  },
+  {
+    "name": "Maracuya Nectar",
+    "brand": "Belmont",
+    "description": "UPC: 8-59174-00310-8",
+    "image": "images/f15.png",
+    "category": "jugos",
+    "variants": [
       {
         "size": "1 litro",
         "case": "6",
         "unitPrice": 2.00,
         "casePrice": 12.00
       }
-]
-},
-{
-  "name": "Emoliente Herbal & Fruit Tea",
-      "brand": "Belmont",
-  "description": "UPC: 8-59174-00331-3",
-  "image": "images/f16.png",
-  "category": "jugos",
-  "variants": [
-     {
-        "size": "16 oz.",
-        "case": "12",
-        "unitPrice": 1.04,
-        "casePrice": 12.50
-      }
-]
-},
-{
-  "name": "Emoliente Herbal & Fruit Tea",
-      "brand": "Belmont",
-  "description": "UPC: 8-5617400359-7",
-  "image": "images/f16.png",
-  "category": "jugos",
-  "variants": [
-     {
-        "size": "1 litro",
-        "case": "6",
-        "unitPrice": 2.00,
-        "casePrice": 12.00
-      }
-]
-},
-{
-  "name": "Mango Nectar",
-      "brand": "Belmont",
-  "description": "UPC: 8-59174-00312-2",
-  "image": "images/f17.png",
-  "category": "jugos",
-  "variants": [
+    ]
+  },
+  {
+    "name": "Emoliente Herbal & Fruit Tea",
+    "brand": "Belmont",
+    "description": "UPC: 8-59174-00331-3",
+    "image": "images/f16.png",
+    "category": "jugos",
+    "variants": [
       {
         "size": "16 oz.",
         "case": "12",
         "unitPrice": 1.04,
         "casePrice": 12.50
       }
-]
-},
-{
-  "name": "Mango Nectar",
-  "brand": "Belmont",
-  "description": "UPC: 8-59174-00309-2",
-  "image": "images/f17.png",
-  "category": "jugos",
-  "variants": [
+    ]
+  },
+  {
+    "name": "Emoliente Herbal & Fruit Tea",
+    "brand": "Belmont",
+    "description": "UPC: 8-5617400359-7",
+    "image": "images/f16.png",
+    "category": "jugos",
+    "variants": [
       {
         "size": "1 litro",
         "case": "6",
         "unitPrice": 2.00,
         "casePrice": 12.00
       }
-]
-}
+    ]
+  },
+  {
+    "name": "Mango Nectar",
+    "brand": "Belmont",
+    "description": "UPC: 8-59174-00312-2",
+    "image": "images/f17.png",
+    "category": "jugos",
+    "variants": [
+      {
+        "size": "16 oz.",
+        "case": "12",
+        "unitPrice": 1.04,
+        "casePrice": 12.50
+      }
+    ]
+  },
+  {
+    "name": "Mango Nectar",
+    "brand": "Belmont",
+    "description": "UPC: 8-59174-00309-2",
+    "image": "images/f17.png",
+    "category": "jugos",
+    "variants": [
+      {
+        "size": "1 litro",
+        "case": "6",
+        "unitPrice": 2.00,
+        "casePrice": 12.00
+      }
+    ]
+  }
 ]

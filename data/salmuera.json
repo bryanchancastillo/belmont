@@ -1,77 +1,77 @@
 [
-{
-  "name": "Ají Amarillo Vidrio",
-  "brand": "Belmont",
-  "description": "UPC: 8-59174-00387-0",
-  "image": "images/f30.png",
-  "category": "salmuera",
-  "variants": [
-     {
+  {
+    "name": "Ají Amarillo Vidrio",
+    "brand": "Belmont",
+    "description": "UPC: 8-59174-00387-0",
+    "image": "images/f30.png",
+    "category": "salmuera",
+    "variants": [
+      {
         "size": "20 oz.",
         "case": "12",
         "unitPrice": 3.32,
         "casePrice": "39.90"
       }
-]
-},
-{
-  "name": "Ají Amarillo Lata",
-  "brand": "Belmont",
-  "description": "UPC: 8-59174-00323-8",
-  "image": "images/f31.png",
-  "category": "salmuera",
-  "variants": [
-    {
-        "size": "20 oz.",
-        "case": "12",
-        "unitPrice": 2.66,
-        "casePrice": "31.90"
-      }
-]
-},
-{
-  "name": "Olluco Lata",
-  "brand": "Belmont",
-  "description": "UPC: 8-59174-00393-1",
-  "image": "images/f32.png",
-  "category": "salmuera",
-  "variants": [
-     {
-        "size": "20 oz.",
-        "case": "12",
-        "unitPrice": 2.66,
-        "casePrice": "31.90"
-      }
-]
-},
-{
-  "name": "Rocoto En Salmuera Lata",
-  "brand": "Belmont",
-  "description": "UPC: 8-59174-00324-5",
-  "image": "images/f33.png",
-  "category": "salmuera",
-  "variants": [
+    ]
+  },
+  {
+    "name": "Ají Amarillo Lata",
+    "brand": "Belmont",
+    "description": "UPC: 8-59174-00323-8",
+    "image": "images/f31.png",
+    "category": "salmuera",
+    "variants": [
       {
         "size": "20 oz.",
         "case": "12",
         "unitPrice": 2.66,
         "casePrice": "31.90"
       }
-]
-},
-{
-  "name": "Choclo Desgranado Lata",
-  "brand": "Belmont",
-  "description": "UPC: 8-59174-00394-8",
-  "image": "images/f34.png",
-  "category": "salmuera",
-  "variants": [
+    ]
+  },
+  {
+    "name": "Olluco Lata",
+    "brand": "Belmont",
+    "description": "UPC: 8-59174-00393-1",
+    "image": "images/f32.png",
+    "category": "salmuera",
+    "variants": [
       {
         "size": "20 oz.",
         "case": "12",
         "unitPrice": 2.66,
         "casePrice": "31.90"
       }
-]
-}
+    ]
+  },
+  {
+    "name": "Rocoto En Salmuera Lata",
+    "brand": "Belmont",
+    "description": "UPC: 8-59174-00324-5",
+    "image": "images/f33.png",
+    "category": "salmuera",
+    "variants": [
+      {
+        "size": "20 oz.",
+        "case": "12",
+        "unitPrice": 2.66,
+        "casePrice": "31.90"
+      }
+    ]
+  },
+  {
+    "name": "Choclo Desgranado Lata",
+    "brand": "Belmont",
+    "description": "UPC: 8-59174-00394-8",
+    "image": "images/f34.png",
+    "category": "salmuera",
+    "variants": [
+      {
+        "size": "20 oz.",
+        "case": "12",
+        "unitPrice": 2.66,
+        "casePrice": "31.90"
+      }
+    ]
+  }
 ]

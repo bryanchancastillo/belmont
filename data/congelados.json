@@ -1,78 +1,77 @@
-
 [
-{
-  "name": "Ají Amarillo",
-  "brand": "Belmont",
-  "description": "UPC: 8-59174-00307-8",
-  "image": "images/f1.png",
-  "category": "congelados",
-  "variants": [
-    { 
-      "size": "1 lb.",
-      "case": "18 bags",
-      "unitPrice": 2.50,
-      "casePrice": 45.00
-    }
-  ]
-},
-{
-  "name": "Ají Amarillo Desvenado",
-  "brand": "Belmont",
-  "description": "UPC: 8-59174-00307-8",
-  "image": "images/f2.png",
-  "category": "congelados",
-  "variants": [
-    { 
-      "size": "12 oz.",
-      "case": "10 bags",
-      "unitPrice": 3.09,
-      "casePrice": 30.90
-    },
-    { 
-      "size": "2 lb.",
-      "case": "8 bags",
-      "unitPrice": 7.00,
-      "casePrice": 56.00
-    }
-  ]
-},
-{
-  "name": "Ají Limo",
-      "brand": "Belmont",
-  "description": "UPC: 8-59174-00314-6",
-  "image": "images/f3.png",
-  "category": "congelados",
-  "variants": [
-      { 
+  {
+    "name": "Ají Amarillo",
+    "brand": "Belmont",
+    "description": "UPC: 8-59174-00307-8",
+    "image": "images/f1.png",
+    "category": "congelados",
+    "variants": [
+      {
+        "size": "1 lb.",
+        "case": "18 bags",
+        "unitPrice": 2.50,
+        "casePrice": 45.00
+      }
+    ]
+  },
+  {
+    "name": "Ají Amarillo Desvenado",
+    "brand": "Belmont",
+    "description": "UPC: 8-59174-00307-8",
+    "image": "images/f2.png",
+    "category": "congelados",
+    "variants": [
+      {
+        "size": "12 oz.",
+        "case": "10 bags",
+        "unitPrice": 3.09,
+        "casePrice": 30.90
+      },
+      {
+        "size": "2 lb.",
+        "case": "8 bags",
+        "unitPrice": 7.00,
+        "casePrice": 56.00
+      }
+    ]
+  },
+  {
+    "name": "Ají Limo",
+    "brand": "Belmont",
+    "description": "UPC: 8-59174-00314-6",
+    "image": "images/f3.png",
+    "category": "congelados",
+    "variants": [
+      {
         "size": "14 oz.",
         "case": "9 bags",
         "unitPrice": 2.32,
         "casePrice": 20.90
       }
     ]
-},
-{
-  "name": "Caigua Entera",
-      "brand": "Belmont",
-  "description": "UPC: 8-59174-00320-7",
-  "image": "images/f4.png",
-  "category": "congelados",
-  "variants": [
-      { 
+  },
+  {
+    "name": "Caigua Entera",
+    "brand": "Belmont",
+    "description": "UPC: 8-59174-00320-7",
+    "image": "images/f4.png",
+    "category": "congelados",
+    "variants": [
+      {
         "size": "1 lb.",
         "case": "6 bags",
         "unitPrice": 2.66,
         "casePrice": 17.90
       }
-]
-},
-{
-  "name": "Choclo Desgranado",
-      "brand": "Belmont",
-  "description": "UPC: 8-59174-00301-6",
-  "image": "images/f5.png",
-  "category": "congelados",
-  "variants": [
+    ]
+  },
+  {
+    "name": "Choclo Desgranado",
+    "brand": "Belmont",
+    "description": "UPC: 8-59174-00301-6",
+    "image": "images/f5.png",
+    "category": "congelados",
+    "variants": [
       {
         "size": "1 lb.",
         "case": "30 bags",
@@ -85,96 +84,96 @@
         "unitPrice": 7.25,
         "casePrice": 72.50
       }
-]
-},
-{
-  "name": "Choclo Entero",
-      "brand": "Belmont",
-  "description": "8-59174-00300-9",
-  "image": "images/f6.png",
-  "category": "congelados",
-  "variants": [
+    ]
+  },
+  {
+    "name": "Choclo Entero",
+    "brand": "Belmont",
+    "description": "8-59174-00300-9",
+    "image": "images/f6.png",
+    "category": "congelados",
+    "variants": [
       {
         "size": "1.4 lb.",
         "case": "18 bags",
         "unitPrice": 2.97,
         "casePrice": 53.50
       }
-]
-},
-{
-  "name": "Huacatay",
-      "brand": "Belmont",
-  "description": "UPC: 8-59174-00319-1",
-  "image": "images/f7.png",
-  "category": "congelados",
-  "variants": [
+    ]
+  },
+  {
+    "name": "Huacatay",
+    "brand": "Belmont",
+    "description": "UPC: 8-59174-00319-1",
+    "image": "images/f7.png",
+    "category": "congelados",
+    "variants": [
       {
         "size": "1 lb.",
         "case": "12 bags",
         "unitPrice": 2.49,
         "casePrice": 29.90
       }
-]
-},
-{
-  "name": "Olluco",
-      "brand": "Belmont",
-  "description": "UPC: 8-59174-00321-4",
-  "image": "images/f8.png",
-  "category": "congelados",
-  "variants": [
+    ]
+  },
+  {
+    "name": "Olluco",
+    "brand": "Belmont",
+    "description": "UPC: 8-59174-00321-4",
+    "image": "images/f8.png",
+    "category": "congelados",
+    "variants": [
       {
         "size": "1 lb.",
         "case": "10 bags",
         "unitPrice": 2.99,
         "casePrice": 29.90
       }
-]
-},
-{
-  "name": "Papa Amarilla",
-      "brand": "Belmont",
-  "description": "UPC: 8-59174-00318-4",
-  "image": "images/f9.png",
-  "category": "congelados",
-  "variants": [
+    ]
+  },
+  {
+    "name": "Papa Amarilla",
+    "brand": "Belmont",
+    "description": "UPC: 8-59174-00318-4",
+    "image": "images/f9.png",
+    "category": "congelados",
+    "variants": [
       {
         "size": "1 lb.",
         "case": "12 bags",
         "unitPrice": 2.75,
         "casePrice": 33.00
       }
-]
-},
-{
-  "name": "Lucuma En Pulpa",
-      "brand": "Belmont",
-  "description": "UPC: 8-59174-00316-0",
-  "image": "images/f10.png",
-  "category": "congelados",
-  "variants": [
+    ]
+  },
+  {
+    "name": "Lucuma En Pulpa",
+    "brand": "Belmont",
+    "description": "UPC: 8-59174-00316-0",
+    "image": "images/f10.png",
+    "category": "congelados",
+    "variants": [
       {
         "size": "14 oz.",
         "case": "20 bags",
         "unitPrice": 3.15,
         "casePrice": 62.90
       }
-]
-},
-{
-  "name": "Chirimoya En Pulpa",
-  "brand": "Belmont",
-  "description": "UPC: 8-59174-00315-3",
-  "image": "images/f11.png",
-  "category": "congelados",
-  "variants": [
+    ]
+  },
+  {
+    "name": "Chirimoya En Pulpa",
+    "brand": "Belmont",
+    "description": "UPC: 8-59174-00315-3",
+    "image": "images/f11.png",
+    "category": "congelados",
+    "variants": [
       {
         "size": "14 oz.",
         "case": "20 bags",
         "unitPrice": 2.64,
         "casePrice": 52.90
       }
-]
-}
+    ]
+  }
 ]

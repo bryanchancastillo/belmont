@@ -1,73 +1,72 @@
 [
-    {
-  "name": "Frejol Canario / Canary Beans",
-  "brand": "Belmont",
-  "category": "sacos",
-  "description": "BULK",
-  "image": "images/f53.png",
-  "variants": [
-    {
-      "size": "50 lb.",
-      "case": "1",
-      "unitPrice": 98.00
-
-    }
-  ]
-},
-{
-  "name": "Maiz Cancha / Cancha Corn",
-  "brand": "Belmont",
-  "category": "sacos",
-  "description": "BULK",
-  "image": "images/f54.png",
-  "variants": [
-    {
-      "size": "50 lb.",
-      "case": "1",
-      "unitPrice": 83.00
-    }
-  ]
-},
-{
-  "name": "Maiz Chulpe / Chulpe Corn",
-  "brand": "Belmont",
-  "category": "sacos",
-  "description": "BULK",
-  "image": "images/f54.png",
-  "variants": [
-    {
-      "size": "50 lb.",
-      "case": "1",
-      "unitPrice": 108.00
-    }
-  ]
-},
-{
-  "name": "Maiz Morado / Purple Corn",
-  "brand": "Belmont",
-  "category": "sacos",
-  "description": "BULK",
-  "image": "images/f55.png",
-  "variants": [
-    {
-      "size": "50 lb.",
-      "case": "1",
-      "unitPrice": 83.00
-    }
-  ]
-},
-{
-  "name": "Maiz Mote / Giant Mote Corn",
-  "brand": "Belmont",
-  "category": "sacos",
-  "description": "BULK",
-  "image": "images/f54.png",
-  "variants": [
-    {
-      "size": "50 lb.",
-      "case": "1",
-      "unitPrice": 95.00
-    }
-  ]
-}
+  {
+    "name": "Frejol Canario / Canary Beans",
+    "brand": "Belmont",
+    "category": "sacos",
+    "description": "BULK",
+    "image": "images/f53.png",
+    "variants": [
+      {
+        "size": "50 lb.",
+        "case": "1",
+        "unitPrice": 98.00
+      }
+    ]
+  },
+  {
+    "name": "Maiz Cancha / Cancha Corn",
+    "brand": "Belmont",
+    "category": "sacos",
+    "description": "BULK",
+    "image": "images/f54.png",
+    "variants": [
+      {
+        "size": "50 lb.",
+        "case": "1",
+        "unitPrice": 83.00
+      }
+    ]
+  },
+  {
+    "name": "Maiz Chulpe / Chulpe Corn",
+    "brand": "Belmont",
+    "category": "sacos",
+    "description": "BULK",
+    "image": "images/f54.png",
+    "variants": [
+      {
+        "size": "50 lb.",
+        "case": "1",
+        "unitPrice": 108.00
+      }
+    ]
+  },
+  {
+    "name": "Maiz Morado / Purple Corn",
+    "brand": "Belmont",
+    "category": "sacos",
+    "description": "BULK",
+    "image": "images/f55.png",
+    "variants": [
+      {
+        "size": "50 lb.",
+        "case": "1",
+        "unitPrice": 83.00
+      }
+    ]
+  },
+  {
+    "name": "Maiz Mote / Giant Mote Corn",
+    "brand": "Belmont",
+    "category": "sacos",
+    "description": "BULK",
+    "image": "images/f54.png",
+    "variants": [
+      {
+        "size": "50 lb.",
+        "case": "1",
+        "unitPrice": 95.00
+      }
+    ]
+  }
 ]
