@@ -1,20 +1,31 @@
 // js/state.js
 
-let currentCategory = 'congelados';
-let currentBrand = 'all';
+const state = {
+  items: [],              // todos los productos del menu.json
+  currentCategory: 'congelados',
+  currentBrand: 'all',
+};
+
+export function setItems(items) {
+  state.items = items;
+}
+
+export function getItems() {
+  return state.items;
+}
 
 export function setCurrentCategory(category) {
-  currentCategory = category || 'all';
+  state.currentCategory = category;
 }
 
 export function getCurrentCategory() {
-  return currentCategory;
+  return state.currentCategory;
 }
 
 export function setCurrentBrand(brand) {
-  currentBrand = brand || 'all';
+  state.currentBrand = brand;
 }
 
 export function getCurrentBrand() {
-  return currentBrand;
+  return state.currentBrand;
 }

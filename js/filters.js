@@ -56,16 +56,62 @@ export function setupCategoryFilters() {
       const category = filter.replace('.', '') || 'all';
 
       setCurrentCategory(category);
+      setCurrentBrand('all');         // 👉 reset marca al cambiar categoría
 
-      await loadMenu(category);
+      await loadMenu(category);       // 👉 aquí se pintan las cards de la categoría
 
-      applyFilters();
+      setupBrandChips();              // 👉 reconstruye las marcas según esa categoría
+      applyFilters();                 // 👉 aplica filtro categoría + marca
     });
   });
 }
 
 export function setupBrandChips() {
-  const chips = document.querySelectorAll('.chip'); // 👈 aquí
+  const container = document.querySelector('.brand-chips');
+  if (!container) return;
+
+  const currentCategory = getCurrentCategory();
+  const currentBrand = getCurrentBrand();
+
+  // Tomamos las cards del grid
+  const cards = document.querySelectorAll('#menuGrid .menu-item');
+
+  // Sacamos solo las marcas que existen en la categoría actual
+  const brandsSet = new Set();
+
+  cards.forEach(card => {
+    const cardCategory = card.getAttribute('data-category') || '';
+    const cardBrand = card.getAttribute('data-brand') || '';
+
+    if (cardCategory === currentCategory && cardBrand) {
+      brandsSet.add(cardBrand);
+    }
+  });
+
+  const brands = Array.from(brandsSet);
+
+  // Construimos el HTML de los chips
+  let html = `
+    <span data-brand="all" class="chip${currentBrand === 'all' ? ' active' : ''}">
+      Todas
+    </span>
+  `;
+
+  html += brands
+    .map(brand => `
+      <span
+        data-brand="${brand}"
+        class="chip${currentBrand === brand ? ' active' : ''}"
+      >
+        ${brand}
+      </span>
+    `)
+    .join('');
+
+  container.innerHTML = html;
+
+  // Ahora sí, agregamos eventos a los chips generados
+  const chips = container.querySelectorAll('.chip');
   if (!chips.length) return;
 
   chips.forEach(chip => {
