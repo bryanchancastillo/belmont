@@ -73,5 +73,35 @@
         "casePrice": "31.90"
       }
     ]
+  },
+    {
+    "name": "Aceituna Botija",
+    "brand": "Belmont",
+    "description": "UPC: 8-59174-00386-3",
+    "image": "images/f19.png",
+    "category": "salmuera",
+    "variants": [
+      {
+        "size": "330 gr.",
+        "case": "12",
+        "unitPrice": 3.25,
+        "casePrice": 39.00
+      }
+    ]
+  },
+    {
+    "name": "Aceituna Botija Bidon In Brine",
+    "brand": "Belmont",
+    "description": "BULK",
+    "image": "images/f135.png",
+    "category": "salmuera",
+    "variants": [
+      {
+        "size": "104 oz.",
+        "case": "6",
+        "unitPrice": 17.67,
+        "casePrice": 106.00
+      }
+    ]
   }
 ]
