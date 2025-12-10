@@ -81,17 +81,21 @@ export async function loadMenu(category = currentCategory) {
                 }
 
                     <div style="margin-top:4px;display:flex;justify-content:flex-end;gap:8px;flex-wrap:wrap;">
-                     <button
-                        type="button"
-                        class="add-to-cart simple-plus-btn"
-                        data-id="${unitId}"
-                        data-name="${item.name}"
-                        data-price="${unitPriceNum}"
-                        data-size="${size}"
-                        data-brand="${brand}"
-                      >
-                        +
-                      </button>
+                                                  <button
+                                type="button"
+                                class="add-to-cart simple-plus-btn"
+                                data-id="${unitId}"
+                                data-name="${item.name}"
+                                data-price="${unitPriceNum}"
+                                data-size="${size}"
+                                data-brand="${brand}"
+
+                                data-case-units="${caseInfo || ''}"
+                                data-unit-price="${unitPriceNum}"
+                              >
+                                +
+                              </button>
+
                     </div>
                   </div>
                 `;
