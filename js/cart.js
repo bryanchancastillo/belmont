@@ -1,6 +1,7 @@
 // js/cart.js
 
-const cart = []; // { id, name, price, qty, size, brand }
+// cada item: { id, name, price, qty, size, brand, caseUnits?, unitPriceForCase? }
+const cart = [];
 
 function formatMoney(value) {
   const n = Number(value) || 0;
@@ -64,6 +65,11 @@ function updateCartUI() {
           </div>
           <div class="cart-item-qty-price">
             Cant: ${item.qty} x ${formatMoney(item.price)}
+            ${
+              item.caseUnits
+                ? `<br>Case: ${item.caseUnits}`
+                : ''
+            }
           </div>
         </div>
 
@@ -118,6 +124,12 @@ function handleAddToCartClick(e) {
   const size = btn.getAttribute('data-size') || '';
   const brand = btn.getAttribute('data-brand') || '';
 
+  // 🔹 nuevos: info de case
+  const caseUnits = btn.getAttribute('data-case-units') || '';
+  const unitPriceForCase = parseFloat(
+    btn.getAttribute('data-unit-price') || btn.getAttribute('data-price') || '0'
+  );
+
   if (!id || !name) return;
 
   const existing = cart.find(p => p.id === id);
@@ -127,10 +139,12 @@ function handleAddToCartClick(e) {
     cart.push({
       id,
       name,
-      price,
+      price,          // precio que usamos para total
       size,
       brand,
       qty: 1,
+      caseUnits,      // ej. "12"
+      unitPriceForCase
     });
   }
 
@@ -191,7 +205,11 @@ function handleSendOrderClick() {
     msg += `• ${item.name}`;
     if (item.brand) msg += ` (${item.brand})`;
     if (item.size) msg += ` - ${item.size}`;
-    msg += ` | Cant: ${item.qty}%0A`;
+    msg += ` | Cant: ${item.qty}`;
+    /*if (item.caseUnits) {
+      msg += ` | Case: ${item.caseUnits} x ${formatMoney(item.unitPriceForCase || item.price)}`;
+    }*/
+    msg += `%0A`;
   });
 
   const total = cart.reduce((sum, item) => sum + item.price * item.qty, 0);
