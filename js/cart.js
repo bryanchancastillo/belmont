@@ -230,14 +230,12 @@ function handleSendOrderClick() {
   msg += '*Me gustaría solicitar una cotización para los siguientes productos:*%0A%0A';
 
   cart.forEach(item => {
-    const subtotal = item.qty * item.price;
 
     msg += `*• ${item.name}*`;
-    if (item.brand) msg += ` _(${item.brand})_`;
     if (item.size) msg += ` - ${item.size}`;
 
-    // Cantidad con precio y subtotal
-    msg += `%0A  *Cantidad:* ${item.qty} × ${formatMoney(item.price)} = *${formatMoney(subtotal)}*`;
+    // Solo mostrar cantidad (sin precio)
+    msg += `%0A  *Cantidad:* ${item.qty}`;
 
     // Case sin precio
     if (item.caseUnits) {
@@ -247,6 +245,7 @@ function handleSendOrderClick() {
     msg += `%0A-------------------------%0A`;
   });
 
+  // Total aproximado solo basado en cantidad × precio
   const total = cart.reduce((sum, item) => sum + item.price * item.qty, 0);
 
   msg += `%0A*Total aproximado:* ${formatMoney(total)}%0A%0A`;
@@ -256,6 +255,7 @@ function handleSendOrderClick() {
   const url = `https://wa.me/${phone}?text=${msg}`;
   window.open(url, '_blank');
 }
+
 
 
 export function initCart() {
