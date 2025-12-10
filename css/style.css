@@ -1530,3 +1530,23 @@ button:focus-visible,
   border: none !important;
 }
 
+
+.cart-qty-input {
+  width: 48px;
+  text-align: center;
+  border-radius: 999px;
+  border: 1px solid #e5e7eb;
+  font-size: 13px;
+  padding: 2px 4px;
+
+  /* Evita resaltados raros en navegadores */
+  outline: none;
+  box-shadow: none;
+}
+
+.cart-qty-input:focus {
+  /* Cuando está seleccionado NO cambia nada */
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #e5e7eb !important; /* Evita que el navegador lo pinte azul */
+}

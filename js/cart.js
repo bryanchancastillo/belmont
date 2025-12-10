@@ -82,7 +82,13 @@ function updateCartUI() {
               data-action="minus"
             >−</button>
 
-            <span class="cart-qty-value">${item.qty}</span>
+            <input
+              type="number"
+              class="cart-qty-input"
+              min="1"
+              value="${item.qty}"
+              data-id="${item.id}"
+            />
 
             <button
               class="cart-qty-btn"
@@ -124,7 +130,7 @@ function handleAddToCartClick(e) {
   const size = btn.getAttribute('data-size') || '';
   const brand = btn.getAttribute('data-brand') || '';
 
-  // 🔹 nuevos: info de case
+  // info de case (para mostrar "Case: 12 x $3.09")
   const caseUnits = btn.getAttribute('data-case-units') || '';
   const unitPriceForCase = parseFloat(
     btn.getAttribute('data-unit-price') || btn.getAttribute('data-price') || '0'
@@ -139,7 +145,7 @@ function handleAddToCartClick(e) {
     cart.push({
       id,
       name,
-      price,          // precio que usamos para total
+      price,          // precio por unidad para total
       size,
       brand,
       qty: 1,
@@ -169,7 +175,7 @@ function handleCartListClick(e) {
     return;
   }
 
-  // Incrementar / decrementar cantidad
+  // Incrementar / decrementar cantidad con botones
   if (qtyBtn) {
     const id = qtyBtn.getAttribute('data-id');
     const action = qtyBtn.getAttribute('data-action');
@@ -196,29 +202,61 @@ function handleCartListClick(e) {
   }
 }
 
+// Maneja cuando el usuario escribe cantidad manualmente en el input
+function handleCartQtyInputChange(e) {
+  const input = e.target.closest('.cart-qty-input');
+  if (!input) return;
+
+  const id = input.getAttribute('data-id');
+  if (!id) return;
+
+  let value = parseInt(input.value, 10);
+
+  if (isNaN(value) || value < 1) {
+    value = 1;
+  }
+
+  const item = cart.find(p => p.id === id);
+  if (!item) return;
+
+  item.qty = value;
+  updateCartUI();
+}
+
 function handleSendOrderClick() {
   if (!cart.length) return;
 
-  let msg = 'Hola Sandra, me gustaría cotizar estos productos:%0A%0A';
+  let msg = '*Hola Sandra*, espero que estés muy bien.%0A%0A';
+  msg += '*Me gustaría solicitar una cotización para los siguientes productos:*%0A%0A';
 
   cart.forEach(item => {
-    msg += `• ${item.name}`;
-    if (item.brand) msg += ` (${item.brand})`;
+    const subtotal = item.qty * item.price;
+
+    msg += `*• ${item.name}*`;
+    if (item.brand) msg += ` _(${item.brand})_`;
     if (item.size) msg += ` - ${item.size}`;
-    msg += ` | Cant: ${item.qty}`;
-    /*if (item.caseUnits) {
-      msg += ` | Case: ${item.caseUnits} x ${formatMoney(item.unitPriceForCase || item.price)}`;
-    }*/
-    msg += `%0A`;
+
+    // Cantidad con precio y subtotal
+    msg += `%0A  *Cantidad:* ${item.qty} × ${formatMoney(item.price)} = *${formatMoney(subtotal)}*`;
+
+    // Case sin precio
+    if (item.caseUnits) {
+      msg += `%0A  *Case:* ${item.caseUnits} bags`;
+    }
+
+    msg += `%0A-------------------------%0A`;
   });
 
   const total = cart.reduce((sum, item) => sum + item.price * item.qty, 0);
-  msg += `%0A%0ATotal aproximado: ${formatMoney(total)}`;
 
-  const phone = '17863444445'; // número de Sandra
+  msg += `%0A*Total aproximado:* ${formatMoney(total)}%0A%0A`;
+  msg += 'Quedo atento(a) a tu confirmación. Muchas gracias. 🙏';
+
+  const phone = '17863444445';
   const url = `https://wa.me/${phone}?text=${msg}`;
   window.open(url, '_blank');
 }
+
 
 export function initCart() {
   const menuGrid = document.getElementById('menuGrid');
@@ -230,9 +268,10 @@ export function initCart() {
   // clicks en "Agregar" de las cards
   menuGrid.addEventListener('click', handleAddToCartClick);
 
-  // clicks dentro del carrito (Quitar, +, -)
+  // clicks dentro del carrito (Quitar, +, -) y cambio de input
   if (cartItemsList) {
     cartItemsList.addEventListener('click', handleCartListClick);
+    cartItemsList.addEventListener('change', handleCartQtyInputChange); // 👈 aquí cambiamos input → change
   }
 
   // enviar pedido
