@@ -241,7 +241,7 @@ function handleSendOrderClick() {
 
     // Case sin precio
     if (item.caseUnits) {
-      msg += `%0A  *Case:* ${item.caseUnits} bags`;
+      msg += `%0A  *Case:* ${item.caseUnits}`;
     }
 
     msg += `%0A-------------------------%0A`;
