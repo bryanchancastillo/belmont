@@ -1143,3 +1143,390 @@ a:focus {
   margin-bottom: 10px;
 }
 
+/* ===========================
+   CARRITO – BASE
+   =========================== */
+
+.cart-toggle-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 24px;
+  border-radius: 45px;
+  font-size: 14px;
+}
+
+.cart-badge {
+  margin-left: 6px;
+  min-width: 22px;
+  font-size: 12px;
+}
+
+/* Estructura de cada ítem del carrito (se usa dentro del modal) */
+.cart-item-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.cart-item-name {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+.cart-item-meta {
+  font-size: 11px;
+  opacity: 0.8;
+  text-transform: uppercase;
+}
+
+.cart-item-qty-price {
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+.cart-item-actions {
+  text-align: right;
+  min-width: 90px;
+  margin-left: 10px;
+}
+
+.cart-item-total {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.cart-item-remove {
+  background: none;
+  border: none;
+  color: #c0392b;
+  font-size: 12px;
+  padding: 0;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+.cart-items-list .cart-empty {
+  text-align: center;
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+
+/* ===========================
+   BOTÓN FLOTANTE DEL CARRITO
+   =========================== */
+
+.floating-cart-btn {
+  position: fixed;
+  bottom: 22px;
+  right: 22px;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background-color: #ffbe33;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+
+  box-shadow: 0 8px 22px rgba(0,0,0,0.25);
+  z-index: 5000;
+
+  transition: all 0.25s ease;
+}
+
+.floating-cart-btn:hover {
+  transform: scale(1.08);
+  background-color: #e69c00;
+}
+
+.floating-cart-btn #floatingCartCount {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background-color: #222831;
+  color: white;
+  min-width: 22px;
+  padding: 3px 6px;
+  font-size: 12px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: 700;
+  box-shadow: 0 0 4px rgba(0,0,0,0.25);
+}
+
+/* ===========================
+   MODAL DEL CARRITO – BLANCO
+   =========================== */
+
+/* ===========================
+   MODAL DEL CARRITO – BLANCO + ITEMS OSCUROS
+   =========================== */
+
+.cart-modal .modal-dialog {
+  max-width: 900px;
+  margin: 1.75rem auto;
+}
+
+/* Fondo blanco del modal */
+.cart-modal .modal-content.cart-modal-content {
+  background-color: #ffffff;
+  color: #222831;
+  border-radius: 18px;
+  border: none;
+  overflow: hidden;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.18);
+}
+
+/* HEADER */
+.cart-modal .modal-header {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 14px 20px;
+}
+
+.cart-modal .modal-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  color: #222831;
+    font-family: 'Dancing Script', cursive;
+}
+
+.cart-modal .modal-title i {
+  font-size: 18px;
+}
+
+.cart-modal .modal-header .close {
+  color: #222831;
+  opacity: 0.6;
+  text-shadow: none;
+}
+
+.cart-modal .modal-header .close:hover {
+  opacity: 1;
+  color: #ffbe33;
+}
+
+/* BODY */
+.cart-modal .modal-body {
+  background: #ffffff;
+  padding: 12px 20px 10px;
+}
+
+/* LISTA DEL CARRITO */
+.cart-modal .cart-items-list {
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+/* Cada item del carrito: oscuro como las cards del menú */
+.cart-modal .cart-items-list .list-group-item {
+  background: #111827;
+  border: none;
+  border-radius: 14px;
+  margin-bottom: 10px;
+  padding: 12px 14px;
+  color: #f9fafb;
+  display: block;
+}
+
+/* Mensaje vacío */
+.cart-modal .cart-items-list .cart-empty {
+  background: transparent;
+  text-align: center;
+  color: #222831;
+  opacity: 0.7;
+}
+
+/* Layout interno del item */
+.cart-item-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+/* Columna derecha: controles + total + quitar */
+.cart-item-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  min-width: 110px;
+}
+
+/* Controles de cantidad (+ / -) */
+.cart-qty-controls {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 2px;
+}
+
+.cart-qty-btn {
+  width: 26px;
+  height: 26px;
+  border-radius: 999px;
+  border: none;
+  background: #f9fafb;
+  color: #111827;
+  font-size: 16px;
+  line-height: 1;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-qty-btn:hover {
+  background: #e5e7eb;
+}
+
+.cart-qty-value {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* Ajuste de textos sobre fondo oscuro */
+.cart-modal .cart-item-meta {
+  color: #d1d5db;
+}
+
+.cart-modal .cart-item-qty-price {
+  color: #e5e7eb;
+}
+
+/* FOOTER */
+.cart-modal .modal-footer {
+  background: #ffffff;
+  border-top: 1px solid #e5e7eb;
+  padding: 10px 20px 14px;
+}
+
+.cart-modal .cart-total-value {
+  font-weight: 700;
+  color: #222831;
+}
+
+/* Botón WhatsApp */
+.cart-modal .cart-submit-btn {
+  width: auto;
+  margin-top: 0;
+  padding: 10px 35px;
+  border-radius: 45px;
+  white-space: nowrap;
+  background-color: #ffbe33;
+  color: #ffffff;
+  border: none;
+  transition: 0.25s ease;
+}
+
+.cart-modal .cart-submit-btn:hover {
+  background-color: #e69c00;
+}
+
+
+.simple-plus-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ffbe33;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.25s ease;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.18);
+}
+
+.simple-plus-btn:hover {
+  transform: scale(1.12);
+  background-color: #e69c00;
+}
+
+
+/* ============================================
+   QUITAR OUTLINE Y BOX-SHADOW A TODOS LOS BOTONES
+   ============================================ */
+
+button,
+button:focus,
+button:active,
+button:focus-visible,
+.btn,
+.btn:focus,
+.btn:active,
+.btn:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* =====================================
+   ESTILO PROFESIONAL – CARRITO VACÍO
+   ===================================== */
+
+.cart-empty-message {
+  background: #ffffff !important;
+  border: none !important;
+  padding: 45px 10px;
+  text-align: center;
+}
+
+/* Contenedor interno */
+.empty-cart-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Icono grande y moderno */
+.empty-cart-icon {
+  font-size: 52px;
+  color: #222831;
+  opacity: 0.18;
+  margin-bottom: 14px;
+  transform: translateY(-4px);
+}
+
+/* Texto principal */
+.empty-cart-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222831;
+  margin-bottom: 4px;
+}
+
+/* Subtexto */
+.empty-cart-sub {
+  font-size: 14px;
+  color: #6b7280;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Evitar estilos viejos */
+.cart-items-list .cart-empty {
+  background: transparent !important;
+  border: none !important;
+}
+

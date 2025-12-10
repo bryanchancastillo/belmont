@@ -13,6 +13,8 @@ import {
   setCurrentBrand,
 } from './state.js';
 
+import { initCart } from './cart.js'; // 🛒 NUEVO
+
 window.addEventListener("DOMContentLoaded", async () => {
   // estado inicial
   setCurrentCategory('congelados');
@@ -21,9 +23,12 @@ window.addEventListener("DOMContentLoaded", async () => {
   // cargar categoría inicial
   await loadMenu('congelados');
 
-  // configurar listeners
+  // configurar listeners (categorías y marcas)
   setupCategoryFilters();
   setupBrandChips();
+
+  // inicializar carrito (event listeners, badges, etc.)
+  initCart(); // 🛒 NUEVO
 
   // aplicar filtros iniciales
   applyFilters();
