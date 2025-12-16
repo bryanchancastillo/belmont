@@ -1550,3 +1550,40 @@ button:focus-visible,
   box-shadow: none !important;
   border-color: #e5e7eb !important; /* Evita que el navegador lo pinte azul */
 }
+
+
+/* ✅ FIX: si el modal es fullscreen, que NO aplique el max-width de 900px */
+#cartModal .modal-dialog.modal-fullscreen,
+#cartModal .modal-dialog.modal-fullscreen-sm-down,
+#cartModal .modal-dialog.modal-fullscreen-md-down,
+#cartModal .modal-dialog.modal-fullscreen-lg-down,
+#cartModal .modal-dialog.modal-fullscreen-xl-down,
+#cartModal .modal-dialog.modal-fullscreen-xxl-down {
+  max-width: 100% !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  margin: 0 !important;
+}
+
+/* ✅ Que el contenido ocupe toda la altura */
+#cartModal .modal-content.cart-modal-content {
+  height: 100vh !important;
+  max-height: 100vh !important;
+  border-radius: 0 !important; /* fullscreen = sin bordes redondeados */
+}
+
+/* ✅ Scroll correcto dentro del body */
+#cartModal .modal-body {
+  flex: 1 1 auto;
+  overflow-y: auto;
+}
+
+/* ✅ En fullscreen la lista puede crecer (en vez de 320px) */
+#cartModal .cart-items-list {
+  max-height: none !important;
+}
+
+
+body.modal-open #floatingCartBtn {
+  display: none !important;
+}
