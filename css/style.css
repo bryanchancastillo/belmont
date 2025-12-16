@@ -1550,3 +1550,86 @@ button:focus-visible,
   box-shadow: none !important;
   border-color: #e5e7eb !important; /* Evita que el navegador lo pinte azul */
 }
+
+
+/* =====================================
+   BUSCADOR DEL MENÚ (adaptado a tu estilo)
+   ===================================== */
+
+.menu-search-wrapper{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin: 10px 0 6px; /* pegado a las categorías como tu layout */
+  padding: 0 16px;    /* igual que tu wrapper móvil */
+}
+
+.menu-search-box{
+  position:relative;
+  width:100%;
+  max-width: 560px;
+}
+
+/* Input estilo "pill" como tus botones/chips */
+.menu-search-box input{
+  width:100%;
+  height: 44px;
+  padding: 10px 16px 10px 44px; /* espacio para el icono */
+  border-radius: 45px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  color: #222831;
+  font-size: 14px;
+  font-weight: 600;
+  outline: none;
+  box-shadow: none;
+  transition: 0.2s ease;
+}
+
+/* Placeholder sobrio */
+.menu-search-box input::placeholder{
+  color:#6b7280;
+  font-weight: 600;
+}
+
+/* Focus minimalista (sin glow fuerte) */
+.menu-search-box input:focus{
+  border-color:#222831;
+  box-shadow: 0 0 0 3px rgba(34,40,49,0.08);
+}
+
+/* Icono igual de sobrio */
+.menu-search-box i{
+  position:absolute;
+  top:50%;
+  left: 16px;
+  transform: translateY(-50%);
+  color:#6b7280;
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+/* Mobile: que no se vea gigante */
+@media (max-width: 768px){
+  .menu-search-wrapper{
+    margin: 8px 0 4px;
+  }
+
+  .menu-search-box input{
+    height: 42px;
+    font-size: 14px;
+  }
+}
+
+/* Desktop: un pelín más aire */
+@media (min-width: 769px){
+  .menu-search-wrapper{
+    margin: 12px 0 8px;
+  }
+}
+
+
+.menu-search-box input{
+  background: #f1f2f3;
+  border: 1px solid #d1d5db;
+}
