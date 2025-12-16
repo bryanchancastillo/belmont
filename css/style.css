@@ -1635,14 +1635,22 @@ button:focus-visible,
 }
 
 
-/* iPhone/Safari: evitar auto-zoom en inputs */
+/* FIX DEFINITIVO iPhone Safari (buscador + qty): evitar auto-zoom */
 @supports (-webkit-touch-callout: none) {
-  input, select, textarea, button {
-    font-size: 16px;
+  .menu-search-box input,
+  .cart-qty-input {
+    font-size: 16px !important;
   }
 
-  .menu-search-box input{
+  /* para que no se vean grandes */
+  .menu-search-box input {
     height: 42px;
     padding: 10px 16px 10px 44px;
+  }
+
+  .cart-qty-input {
+    height: 28px;
+    width: 54px;
+    padding: 2px 6px;
   }
 }
