@@ -1633,3 +1633,16 @@ button:focus-visible,
   background: #f1f2f3;
   border: 1px solid #d1d5db;
 }
+
+
+/* iPhone/Safari: evitar auto-zoom en inputs */
+@supports (-webkit-touch-callout: none) {
+  input, select, textarea, button {
+    font-size: 16px;
+  }
+
+  .menu-search-box input{
+    height: 42px;
+    padding: 10px 16px 10px 44px;
+  }
+}
