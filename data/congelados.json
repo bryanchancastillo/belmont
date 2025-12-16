@@ -1,6 +1,6 @@
 [
   {
-    "name": "Ají Amarillo",
+    "name": "Aji Amarillo",
     "brand": "Belmont",
     "description": "UPC: 8-59174-00307-8",
     "image": "images/f1.png",
@@ -15,7 +15,7 @@
     ]
   },
   {
-    "name": "Ají Amarillo Desvenado",
+    "name": "Aji Amarillo Desvenado",
     "brand": "Belmont",
     "description": "UPC: 8-59174-00307-8",
     "image": "images/f2.png",
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "name": "Ají Limo",
+    "name": "Aji Limo",
     "brand": "Belmont",
     "description": "UPC: 8-59174-00314-6",
     "image": "images/f3.png",
